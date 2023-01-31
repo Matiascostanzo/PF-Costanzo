@@ -171,6 +171,184 @@
     font-size: medium;
     margin: 10px;
   }
+
+  /* Vehiculos */
+
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+
+  .card1 {
+    background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card2 {
+    background-image: url("../img/Mini\ Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card5 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card6 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card1:hover,
+  .card1:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card2:hover,
+  .card2:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card3:hover,
+  .card3:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card4:hover:hover,
+  .card4:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card5:hover:hover,
+  .card5:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card6:hover:hover,
+  .card6:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1.5rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  .card1:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card2:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card3:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card4:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card5:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card6:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+
+  .tituloVehiculos h1 {
+    display: flex;
+    text-align: end;
+  }
 }
 
 @media screen and (min-width: 859px) and (max-width: 1199px) {
@@ -179,6 +357,7 @@
   .header {
     position: sticky;
     top: 0;
+    z-index: 2;
   }
 
   body {
@@ -237,30 +416,6 @@
     display: none;
   }
 
-  /* .indice__logo {
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 30px;
-    width: 150px;
-  } */
-
-  /* nav {
-    display: flex;
-    padding-top: 3%;
-    justify-content: flex-end;
-    background-color: #000;
-    flex-direction: column;
-  }  */
-
-  /* .link { 
-    background: #000;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
-    justify-content: flex-end;
-  } */
-
   .link:hover {
     background: grey;
     width: 20px;
@@ -271,6 +426,7 @@
   .inicioContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .inicioTexto {
@@ -328,9 +484,188 @@
     font-size: medium;
     margin: 10px;
   }
+
+  /* Vehiculos */
+
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+
+  .card1 {
+    background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card2 {
+    background-image: url("../img/Mini\ Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card5 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card6 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card1:hover,
+  .card1:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card2:hover,
+  .card2:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card3:hover,
+  .card3:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card4:hover:hover,
+  .card4:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card5:hover:hover,
+  .card5:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card6:hover:hover,
+  .card6:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1.5rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  .card1:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card2:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card3:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card4:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card5:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card6:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+
+  .tituloVehiculos h1 {
+    display: flex;
+    text-align: end;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  /* Index */
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
       url(../img/Fondo2.jpg);
@@ -342,6 +677,7 @@
   .header {
     position: sticky;
     top: 0;
+    z-index: 2;
   }
   nav {
     background: black;
@@ -388,30 +724,6 @@
   #check {
     display: none;
   }
-
-  /* .indice__logo {
-      display: flex;
-      justify-content: flex-start;
-      padding-bottom: 30px;
-      width: 150px;
-    }*/
-
-  /* nav {
-      padding-top: 3%;
-      justify-content: flex-end;
-      background-color: #000;
-      width: 100%;
-      height: 80px;
-    } */
-
-  /* .link {
-      background: black;
-      display: inline-block;
-      color: white;
-      text-decoration: none;
-      padding: 10px 30px;
-      justify-content: flex-end;
-    }  */
 
   .link:hover {
     background: grey;
@@ -477,5 +789,212 @@
     grid-area: inicioTexto;
     margin-left: 1%;
     margin-bottom: 40%;
+  }
+  /* Vehiculos */
+
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .tarjetas {
+    margin-top: 10%;
+    display: grid;
+    grid-gap: 10%;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8"
+      "card9 card10 card11 card12";
+
+    align-items: center;
+    min-height: 150vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+
+  .card1 {
+    background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card2 {
+    background-image: url("../img/Mini\ Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card5 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card6 {
+    background-image: url("../img/Hawk\ 1.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card7 {
+    background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card1:hover,
+  .card1:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card2:hover,
+  .card2:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card3:hover,
+  .card3:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card4:hover:hover,
+  .card4:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card5:hover:hover,
+  .card5:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card6:hover:hover,
+  .card6:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card7:hover,
+  .card7:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  .card1:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card2:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card3:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card4:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card5:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card6:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card7:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+
+  .parrafoVehiculos {
+    display: flex;
+    text-align: center;
+    width: 100%;
   }
 }
