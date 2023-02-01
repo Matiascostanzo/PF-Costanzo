@@ -254,7 +254,58 @@
   }
 
   .card6 {
-    background-image: url("../img/Leo\ Sin\ fondo.png");
+    background-image: url("../img/Hawk\ 1.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card7 {
+    background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card8 {
+    background-image: url("../img/Robot.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card9 {
+    background-image: url("../img/Shino.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card10 {
+    background-image: url("../img/Spy\ Racing.png");
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -296,6 +347,25 @@
     transform: scale(1.05);
   }
 
+  .card7:hover:hover,
+  .card7:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card8:hover:hover,
+  .card8:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card9:hover:hover,
+  .card9:focus-within {
+    transform: scale(1.05);
+  }
+  .card10:hover:hover,
+  .card10:focus-within {
+    transform: scale(1.05);
+  }
+
   .card-content {
     padding: 1.5rem;
     background: linear-gradient(black, rgba(0, 0, 0, 0.5));
@@ -329,6 +399,25 @@
   }
 
   .card6:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card7:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card8:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card9:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  .card10:hover .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
@@ -567,7 +656,57 @@
   }
 
   .card6 {
-    background-image: url("../img/Leo\ Sin\ fondo.png");
+    background-image: url("../img/Hawk\ 1.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card7 {
+    background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card8 {
+    background-image: url("../img/Robot.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card9 {
+    background-image: url("../img/Shino.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card10 {
+    background-image: url("../img/Spy\ Racing.png");
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -609,6 +748,25 @@
     transform: scale(1.05);
   }
 
+  .card7:hover:hover,
+  .card7:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card8:hover:hover,
+  .card8:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card9:hover:hover,
+  .card9:focus-within {
+    transform: scale(1.05);
+  }
+  .card10:hover:hover,
+  .card10:focus-within {
+    transform: scale(1.05);
+  }
+
   .card-content {
     padding: 1.5rem;
     background: linear-gradient(black, rgba(0, 0, 0, 0.5));
@@ -642,6 +800,25 @@
   }
 
   .card6:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card7:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card8:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card9:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  .card10:hover .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
@@ -806,11 +983,12 @@
     grid-gap: 10%;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 33% 33% 34%;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas:
       "card1 card2 card3 card4"
       "card5 card6 card7 card8"
-      "card9 card10 card11 card12";
+      "card9 card10 card11 card12"
+      "footer footer footer footer";
 
     align-items: center;
     min-height: 150vh;
@@ -828,6 +1006,7 @@
     overflow: hidden;
     transition: transform 500ms ease;
     margin-right: 5%;
+    margin-left: 4%;
   }
 
   .card2 {
@@ -877,6 +1056,7 @@
     overflow: hidden;
     transition: transform 500ms ease;
     margin-right: 5%;
+    margin-left: 4%;
   }
 
   .card6 {
@@ -893,6 +1073,46 @@
   }
   .card7 {
     background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card8 {
+    background-image: url("../img/Robot.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card9 {
+    background-image: url("../img/Shino.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+    margin-left: 4%;
+  }
+
+  .card10 {
+    background-image: url("../img/Spy\ Racing.png");
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -938,6 +1158,21 @@
     transform: scale(1.05);
   }
 
+  .card8:hover,
+  .card8:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card9:hover,
+  .card9:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card10:hover,
+  .card10:focus-within {
+    transform: scale(1.05);
+  }
+
   .card-content {
     padding: 1rem;
     background: linear-gradient(black, rgba(0, 0, 0, 0.5));
@@ -945,37 +1180,18 @@
     transition: transform 500ms ease;
   }
 
-  .card1:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card2:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card3:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card4:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card5:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card6:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card7:hover .card-content {
+  .card1:hover .card-content,
+  .card2:hover .card-content,
+  .card3:hover .card-content,
+  .card4:hover .card-content,
+  .card5:hover .card-content,
+  .card6:hover .card-content,
+  .card7:hover .card-content,
+  .card8:hover .card-content,
+  .card9:hover .card-content,
+  .card10:hover .card-content,
+  .card11:hover .card-content,
+  .card12:hover .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
