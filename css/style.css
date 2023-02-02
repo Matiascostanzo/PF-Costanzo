@@ -316,6 +316,30 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
+  .card11 {
+    background-image: url("../img/Super\ Miku.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card12 {
+    background-image: url("../img/Vespa.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
 
   .card1:hover,
   .card1:focus-within {
@@ -365,59 +389,27 @@
   .card10:focus-within {
     transform: scale(1.05);
   }
-
-  .card-content {
-    padding: 1.5rem;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
-    transform: translateY(65%);
-    transition: transform 500ms ease;
+  .card11:hover:hover,
+  .card11:focus-within {
+    transform: scale(1.05);
+  }
+  .card12:hover:hover,
+  .card12:focus-within {
+    transform: scale(1.05);
   }
 
-  .card1:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card2:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card3:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card4:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card5:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card6:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card7:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card8:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card9:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  .card10:hover .card-content {
+  .card1:hover .card-content,
+  .card2:hover .card-content,
+  .card3:hover .card-content,
+  .card4:hover .card-content,
+  .card5:hover .card-content,
+  .card6:hover .card-content,
+  .card7:hover .card-content,
+  .card8:hover .card-content,
+  .card9:hover .card-content,
+  .card10:hover .card-content,
+  .card11:hover .card-content,
+  .card12:hover .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
@@ -437,6 +429,10 @@
   .tituloVehiculos h1 {
     display: flex;
     text-align: end;
+  }
+  /* Contacto */
+  .containerContacto {
+    width: 100%;
   }
 }
 
@@ -718,6 +714,31 @@
     margin-right: 5%;
   }
 
+  .card11 {
+    background-image: url("../img/Super\ Miku.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card12 {
+    background-image: url("../img/Vespa.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
   .card1:hover,
   .card1:focus-within {
     transform: scale(1.05);
@@ -766,59 +787,27 @@
   .card10:focus-within {
     transform: scale(1.05);
   }
-
-  .card-content {
-    padding: 1.5rem;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
-    transform: translateY(65%);
-    transition: transform 500ms ease;
+  .card11:hover:hover,
+  .card11:focus-within {
+    transform: scale(1.05);
+  }
+  .card12:hover:hover,
+  .card12:focus-within {
+    transform: scale(1.05);
   }
 
-  .card1:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card2:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card3:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card4:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card5:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card6:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card7:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card8:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .card9:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  .card10:hover .card-content {
+  .card1:hover .card-content,
+  .card2:hover .card-content,
+  .card3:hover .card-content,
+  .card4:hover .card-content,
+  .card5:hover .card-content,
+  .card6:hover .card-content,
+  .card7:hover .card-content,
+  .card8:hover .card-content,
+  .card9:hover .card-content,
+  .card10:hover .card-content,
+  .card11:hover .card-content,
+  .card12:hover .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
@@ -838,6 +827,10 @@
   .tituloVehiculos h1 {
     display: flex;
     text-align: end;
+  }
+  /* Contacto */
+  .containerContacto {
+    width: 100%;
   }
 }
 
@@ -1123,6 +1116,30 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
+  .card11 {
+    background-image: url("../img/Super\ Miku.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card12 {
+    background-image: url("../img/Vespa.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
   .card1:hover,
   .card1:focus-within {
     transform: scale(1.05);
@@ -1173,6 +1190,15 @@
     transform: scale(1.05);
   }
 
+  .card11:hover,
+  .card11:focus-within {
+    transform: scale(1.05);
+  }
+  .card12:hover,
+  .card12:focus-within {
+    transform: scale(1.05);
+  }
+
   .card-content {
     padding: 1rem;
     background: linear-gradient(black, rgba(0, 0, 0, 0.5));
@@ -1211,6 +1237,11 @@
   .parrafoVehiculos {
     display: flex;
     text-align: center;
+    width: 100%;
+  }
+
+  /* Contacto */
+  .containerContacto {
     width: 100%;
   }
 }

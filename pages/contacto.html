@@ -30,7 +30,7 @@
         <i class="fas fa-bars"></i>
       </label>
       <a href="#" class="enlace">
-        <img class="indice__logo" src="img/Logo.png" alt="" />
+        <img class="indice__logo" src="../img/Logo.png" alt="" />
       </a>
       <ul>
         <li><a class="link" href="../index.html">Inicio</a></li>
@@ -42,7 +42,78 @@
     </nav>
   </header>
   <body>
-    <!-- Footer -->
+    <div class="containerContacto d-flex">
+      <form class="row g-4 mt-3 mb-5 ms-3">
+        <div class="col-12">
+          <label for="nameInput" class="form-label text-white">Nombre </label>
+          <input
+            type="text"
+            class="form-control w-25"
+            id="nameInput"
+            placeholder="Escribe tu nombre"
+          />
+        </div>
+        <div class="col-12">
+          <label for="emailInput" class="form-label text-white">Email </label>
+          <input
+            type="email"
+            class="form-control w-25"
+            id="emailInput"
+            placeholder="Ingresar e-mail "
+          />
+        </div>
+        <div class="col-12">
+          <label for="phoneInput" class="form-label text-white"
+            >Telefono
+          </label>
+          <input
+            type="number"
+            class="form-control w-25"
+            id="phoneInput"
+            placeholder="Ingresar telefono"
+          />
+        </div>
+        <div class="col-12">
+          <label for="consultInput" class="form-label text-white"
+            >Motivo de consulta
+          </label>
+          <input
+            type="text"
+            class="form-control w-25"
+            id="consulInput"
+            placeholder="Escribe tu consulta"
+          />
+        </div>
+        <div class="col-12">
+          <button type="button" class="btn btn-dark w-25">Enviar</button>
+        </div>
+      </form>
+      <p class="align-self-center me-5 fs-5">
+       <strong> Estaremos enviándote la información solicitada en un lapso de 1 hora
+        <br />
+        si tu consulta fue enviada en nuestro horario laboral, caso contrario
+        <br />
+        será respondida cuando volvamos a abrir nuestro local
+      </p></strong>
+    </div>
+    <div class="col-12 text-white ms-3">
+      <p>
+        Les dejamos un video de nuestra fábrica en Argentina, donde se ensamblan
+        todos nuestros vehículos
+      </p>
+    </div>
+    <div class="row w-50 ms-3 mb-5">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Lk59cANKfpU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
     <!-- Footer -->
     <footer>
       <div class="container-fluid">
@@ -56,16 +127,22 @@
             <a class="text-secondary text-decoration-none" href="../index.html"
               >Inicio</a
             ><br />
-            <a class="text-secondary text-decoration-none" href="contacto.html"
+            <a
+              class="text-secondary text-decoration-none"
+              href="pages/contacto.html"
               >Contacto</a
             ><br />
-            <a class="text-secondary text-decoration-none" href="faq.html"
+            <a class="text-secondary text-decoration-none" href="pages/faq.html"
               >FAQ</a
             ><br />
-            <a class="text-secondary text-decoration-none" href="vehiculos.html"
+            <a
+              class="text-secondary text-decoration-none"
+              href="pages/vehiculos.html"
               >Vehiculos</a
             ><br />
-            <a class="text-secondary text-decoration-none" href="ubicacion.html"
+            <a
+              class="text-secondary text-decoration-none"
+              href="pages/ubicacion.html"
               >Ubicacion</a
             ><br />
           </div>
@@ -87,11 +164,10 @@
           </div>
         </div>
         <div class="row bg-secondary-subtle text-dark text-center">
-          <p>Copyright © 2023 Sunra Escobar. Todos los derechos reservados.</p>
+          <p>Copyright ©️ 2023 Sunra Escobar. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
