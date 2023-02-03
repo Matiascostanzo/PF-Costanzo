@@ -96,6 +96,7 @@
     font-size: x-large;
     margin-top: -10%;
     padding-left: 25%;
+    margin-right: 50px;
   }
 
   .redesSociales__imagenFacebook {
@@ -371,31 +372,40 @@
     transform: scale(1.05);
   }
 
-  .card7:hover:hover,
+  .card7:hover,
   .card7:focus-within {
     transform: scale(1.05);
   }
 
-  .card8:hover:hover,
+  .card8:hover,
   .card8:focus-within {
     transform: scale(1.05);
   }
 
-  .card9:hover:hover,
+  .card9:hover,
   .card9:focus-within {
     transform: scale(1.05);
   }
-  .card10:hover:hover,
+
+  .card10:hover,
   .card10:focus-within {
     transform: scale(1.05);
   }
-  .card11:hover:hover,
+
+  .card11:hover,
   .card11:focus-within {
     transform: scale(1.05);
   }
-  .card12:hover:hover,
+  .card12:hover,
   .card12:focus-within {
     transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
   }
 
   .card1:hover .card-content,
@@ -433,6 +443,75 @@
   /* Contacto */
   .containerContacto {
     width: 100%;
+  }
+
+  /* FAQ */
+
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqRow {
+    display: flex;
+  }
+
+  .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .faqPreguntas {
+    padding-top: 4%;
+  }
+
+  hr {
+    border-color: grey;
+  }
+
+  /* Ubicacion */
+
+  .ubicacionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  .ubicacionRow {
+    display: flex;
+  }
+  .ubicacionCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ubicacionTexto {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .ubicacionImagen {
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .maps {
+    margin-top: 3%;
+  }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
   }
 }
 
@@ -769,31 +848,40 @@
     transform: scale(1.05);
   }
 
-  .card7:hover:hover,
+  .card7:hover,
   .card7:focus-within {
     transform: scale(1.05);
   }
 
-  .card8:hover:hover,
+  .card8:hover,
   .card8:focus-within {
     transform: scale(1.05);
   }
 
-  .card9:hover:hover,
+  .card9:hover,
   .card9:focus-within {
     transform: scale(1.05);
   }
-  .card10:hover:hover,
+
+  .card10:hover,
   .card10:focus-within {
     transform: scale(1.05);
   }
-  .card11:hover:hover,
+
+  .card11:hover,
   .card11:focus-within {
     transform: scale(1.05);
   }
-  .card12:hover:hover,
+  .card12:hover,
   .card12:focus-within {
     transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
   }
 
   .card1:hover .card-content,
@@ -831,6 +919,79 @@
   /* Contacto */
   .containerContacto {
     width: 100%;
+  }
+  /* FAQ */
+
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqRow {
+    display: flex;
+  }
+
+  .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .faqPreguntas {
+    padding-top: 4%;
+  }
+
+  hr {
+    border-color: grey;
+  }
+
+  /* Ubicacion */
+
+  .ubicacionContainer {
+    display: grid;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+      " ubicacionTexto  ubicacionImagen "
+      "mapa  mapa "
+      "footer footer";
+  }
+
+  .ubicacionRow {
+    display: flex;
+  }
+  .ubicacionCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ubicacionTexto {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .ubicacionImagen {
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .maps {
+    margin-top: 3%;
+  }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
   }
 }
 
@@ -958,7 +1119,7 @@
     color: white;
     grid-area: inicioTexto;
     margin-left: 1%;
-    margin-bottom: 40%;
+    margin-bottom: 230px;
   }
   /* Vehiculos */
 
@@ -1237,11 +1398,85 @@
   .parrafoVehiculos {
     display: flex;
     text-align: center;
+
     width: 100%;
   }
 
   /* Contacto */
   .containerContacto {
     width: 100%;
+  }
+
+  .parrafoContacto {
+    font-family: "Merriweather", serif;
+  }
+
+  /* FAQ */
+
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqRow {
+    display: flex;
+  }
+
+  .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .faqPreguntas {
+    padding-top: 4%;
+  }
+
+  hr {
+    border-color: grey;
+  }
+
+  /* Ubicacion */
+
+  .ubicacionContainer {
+    display: grid;
+    width: 100%;
+    max-width: 100vh;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+      " ubicacionTexto  ubicacionImagen "
+      "mapa    mapa "
+      "footer   footer";
+  }
+
+  .ubicacionTexto {
+    grid-area: ubicacionTexto;
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .ubicacionImagen {
+    grid-area: ubicacionImagen;
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .maps {
+    margin-top: 3%;
+  }
+  .mapa {
+    grid-area: mapa;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
   }
 }
