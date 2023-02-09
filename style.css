@@ -1,0 +1,1487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PÁGINA DE INICIO */
+
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
+      url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  /* NAV BAR */
+
+  .checkbtn {
+    display: block;
+    float: right;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  ul {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 45px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav {
+    background-color: black;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  #check {
+    display: none;
+  }
+
+  .link:hover {
+    background: none;
+    color: grey;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  /* Footer */
+
+  .footer {
+    font-size: 60%;
+    background: black;
+    height: 10%;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+    /*  poner footer abajo */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .redesSociales__linkInstagram {
+    color: white;
+    padding-top: 0.3%;
+    padding-right: 0.5%;
+  }
+  .fa-instagram {
+    font-size: x-large;
+    margin-right: 0.3%;
+    margin-top: 0.5%;
+  }
+
+  .fa-facebook {
+    font-size: x-large;
+    margin-top: -10%;
+    padding-left: 25%;
+    margin-right: 50px;
+  }
+
+  .redesSociales__imagenFacebook {
+    color: white;
+    padding-top: 7px;
+  }
+
+  .redesSociales__Contacto {
+    color: white;
+    margin-top: 12px;
+    margin-left: 18px;
+  }
+
+  /* Cuerpo de página de inicio */
+
+  .inicioContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inicioTexto {
+    padding-left: 3%;
+    margin-top: 10%;
+    font-size: large;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    order: 3;
+    color: white;
+  }
+
+  .hawk {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .leo {
+    display: flex;
+    flex-direction: column;
+    order: 4;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 0;
+  }
+  .subtitulo {
+    order: 2;
+    color: white;
+  }
+  h1 {
+    color: #343a40;
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    margin-left: 3%;
+    margin-top: 10%;
+    font-family: "Arimo", sans-serif;
+  }
+
+  h3 {
+    margin-top: 7%;
+    margin-left: 1%;
+    color: white;
+    font-size: medium;
+    margin: 10px;
+  }
+
+  /* Vehiculos */
+
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+
+  .card1 {
+    background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card2 {
+    background-image: url("../img/Mini\ Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card5 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card6 {
+    background-image: url("../img/Hawk\ 1.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card7 {
+    background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card8 {
+    background-image: url("../img/Robot.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card9 {
+    background-image: url("../img/Shino.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card10 {
+    background-image: url("../img/Spy\ Racing.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card11 {
+    background-image: url("../img/Super\ Miku.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card12 {
+    background-image: url("../img/Vespa.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card1:hover,
+  .card1:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card2:hover,
+  .card2:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card3:hover,
+  .card3:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card4:hover:hover,
+  .card4:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card5:hover:hover,
+  .card5:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card6:hover:hover,
+  .card6:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card7:hover,
+  .card7:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card8:hover,
+  .card8:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card9:hover,
+  .card9:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card10:hover,
+  .card10:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card11:hover,
+  .card11:focus-within {
+    transform: scale(1.05);
+  }
+  .card12:hover,
+  .card12:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  .card1:hover .card-content,
+  .card2:hover .card-content,
+  .card3:hover .card-content,
+  .card4:hover .card-content,
+  .card5:hover .card-content,
+  .card6:hover .card-content,
+  .card7:hover .card-content,
+  .card8:hover .card-content,
+  .card9:hover .card-content,
+  .card10:hover .card-content,
+  .card11:hover .card-content,
+  .card12:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+
+  .tituloVehiculos h1 {
+    display: flex;
+    text-align: end;
+  }
+  /* Contacto */
+  .containerContacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* FAQ */
+
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqRow {
+    display: flex;
+  }
+
+  .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .faqPreguntas {
+    padding-top: 4%;
+  }
+
+  hr {
+    border-color: grey;
+  }
+
+  /* Ubicacion */
+
+  .ubicacionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  .ubicacionRow {
+    display: flex;
+  }
+  .ubicacionCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ubicacionTexto {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .ubicacionImagen {
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .maps {
+    margin-top: 3%;
+  }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  /* Nav Bar */
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
+      url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .enlace {
+    position: absolute;
+    padding: 20px 50px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 7px 13px;
+    text-transform: uppercase;
+  }
+
+  nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+  }
+  .indice__logo {
+    height: 40px;
+  }
+
+  nav ul {
+    float: right;
+    color: white;
+    background: black;
+    margin-right: 20px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+    color: white;
+  }
+
+  .checkbtn {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+
+  .link:hover {
+    background: grey;
+    width: 20px;
+  }
+
+  /* Index */
+
+  .inicioContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .inicioTexto {
+    padding-left: 3%;
+    margin-top: 10%;
+    font-size: large;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    order: 3;
+    color: white;
+  }
+
+  .hawk {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .leo {
+    display: flex;
+    flex-direction: column;
+    order: 4;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 0;
+  }
+  .subtitulo {
+    order: 2;
+    color: white;
+  }
+  h1 {
+    color: #343a40;
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    margin-left: 3%;
+    margin-top: 10%;
+    font-family: "Arimo", sans-serif;
+  }
+
+  h3 {
+    margin-top: 7%;
+    margin-left: 1%;
+    color: white;
+    font-size: medium;
+    margin: 10px;
+  }
+
+  /* Vehiculos */
+
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+
+  .card1 {
+    background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card2 {
+    background-image: url("../img/Mini\ Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card5 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card6 {
+    background-image: url("../img/Hawk\ 1.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card7 {
+    background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card8 {
+    background-image: url("../img/Robot.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card9 {
+    background-image: url("../img/Shino.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card10 {
+    background-image: url("../img/Spy\ Racing.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card11 {
+    background-image: url("../img/Super\ Miku.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card12 {
+    background-image: url("../img/Vespa.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card1:hover,
+  .card1:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card2:hover,
+  .card2:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card3:hover,
+  .card3:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card4:hover:hover,
+  .card4:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card5:hover:hover,
+  .card5:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card6:hover:hover,
+  .card6:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card7:hover,
+  .card7:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card8:hover,
+  .card8:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card9:hover,
+  .card9:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card10:hover,
+  .card10:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card11:hover,
+  .card11:focus-within {
+    transform: scale(1.05);
+  }
+  .card12:hover,
+  .card12:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  .card1:hover .card-content,
+  .card2:hover .card-content,
+  .card3:hover .card-content,
+  .card4:hover .card-content,
+  .card5:hover .card-content,
+  .card6:hover .card-content,
+  .card7:hover .card-content,
+  .card8:hover .card-content,
+  .card9:hover .card-content,
+  .card10:hover .card-content,
+  .card11:hover .card-content,
+  .card12:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+
+  .tituloVehiculos h1 {
+    display: flex;
+    text-align: end;
+  }
+  /* Contacto */
+  .containerContacto {
+    width: 100%;
+  }
+  /* FAQ */
+
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqRow {
+    display: flex;
+  }
+
+  .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .faqPreguntas {
+    padding-top: 4%;
+  }
+
+  hr {
+    border-color: grey;
+  }
+
+  /* Ubicacion */
+
+  .ubicacionContainer {
+    display: grid;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+      " ubicacionTexto  ubicacionImagen "
+      "mapa  mapa "
+      "footer footer";
+  }
+
+  .ubicacionRow {
+    display: flex;
+  }
+  .ubicacionCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ubicacionTexto {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .ubicacionImagen {
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .maps {
+    margin-top: 3%;
+  }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Index */
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
+      url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  /* Nav Bar */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+  }
+  .indice__logo {
+    height: 40px;
+  }
+  .enlace {
+    position: absolute;
+    padding: 20px 50px;
+  }
+  nav ul {
+    float: right;
+    color: white;
+    background: black;
+    margin-right: 20px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+  }
+
+  nav ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 7px 13px;
+    text-transform: uppercase;
+  }
+
+  .checkbtn {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+
+  .link:hover {
+    background: grey;
+  }
+
+  h1 {
+    color: #343a40;
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h3 {
+    margin-top: 7%;
+    margin-left: 1%;
+    color: white;
+    font-size: medium;
+    margin: 10px;
+  }
+
+  .inicioContainer {
+    padding: 10% 10%;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 5% 25% 30% 10%;
+    grid-template-areas:
+      " titulo  hawk "
+      "subtitulo  subtitulo "
+      " inicioTexto  leo   "
+      "inicioTexto none"
+      "footer footer";
+  }
+
+  .titulo {
+    grid-area: titulo;
+
+    margin-left: 3%;
+    color: white;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .hawk {
+    grid-area: hawk;
+    padding-left: 150%;
+  }
+
+  .subtitulo {
+    grid-area: subtitulo;
+    margin-left: 1%;
+    color: white;
+  }
+
+  .leo {
+    grid-area: leo;
+    padding-left: 150%;
+  }
+
+  .inicioTexto {
+    color: white;
+    grid-area: inicioTexto;
+    margin-left: 1%;
+    margin-bottom: 230px;
+  }
+  /* Vehiculos */
+
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .tarjetas {
+    margin-top: 10%;
+    display: grid;
+    grid-gap: 10%;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8"
+      "card9 card10 card11 card12"
+      "footer footer footer footer";
+
+    align-items: center;
+    min-height: 150vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+
+  .card1 {
+    background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+    margin-left: 4%;
+  }
+
+  .card2 {
+    background-image: url("../img/Mini\ Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card5 {
+    background-image: url("../img/Leo\ Sin\ fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+    margin-left: 4%;
+  }
+
+  .card6 {
+    background-image: url("../img/Hawk\ 1.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card7 {
+    background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card8 {
+    background-image: url("../img/Robot.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+
+  .card9 {
+    background-image: url("../img/Shino.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+    margin-left: 4%;
+  }
+
+  .card10 {
+    background-image: url("../img/Spy\ Racing.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card11 {
+    background-image: url("../img/Super\ Miku.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card12 {
+    background-image: url("../img/Vespa.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .card1:hover,
+  .card1:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card2:hover,
+  .card2:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card3:hover,
+  .card3:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card4:hover:hover,
+  .card4:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card5:hover:hover,
+  .card5:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card6:hover:hover,
+  .card6:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card7:hover,
+  .card7:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card8:hover,
+  .card8:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card9:hover,
+  .card9:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card10:hover,
+  .card10:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card11:hover,
+  .card11:focus-within {
+    transform: scale(1.05);
+  }
+  .card12:hover,
+  .card12:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  .card1:hover .card-content,
+  .card2:hover .card-content,
+  .card3:hover .card-content,
+  .card4:hover .card-content,
+  .card5:hover .card-content,
+  .card6:hover .card-content,
+  .card7:hover .card-content,
+  .card8:hover .card-content,
+  .card9:hover .card-content,
+  .card10:hover .card-content,
+  .card11:hover .card-content,
+  .card12:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+
+  .parrafoVehiculos {
+    display: flex;
+    text-align: center;
+
+    width: 100%;
+  }
+
+  /* Contacto */
+  .containerContacto {
+    width: 100%;
+  }
+
+  .parrafoContacto {
+    font-family: "Merriweather", serif;
+  }
+
+  /* FAQ */
+
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqRow {
+    display: flex;
+  }
+
+  .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .faqPreguntas {
+    padding-top: 4%;
+  }
+
+  hr {
+    border-color: grey;
+  }
+
+  /* Ubicacion */
+
+  .ubicacionContainer {
+    display: grid;
+    width: 100%;
+    max-width: 100vh;
+    margin: auto;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+      " ubicacionTexto  ubicacionImagen "
+      "mapa    mapa "
+      "footer   footer";
+  }
+
+  .ubicacionTexto {
+    grid-area: ubicacionTexto;
+    margin-top: 10%;
+    font-size: 30px;
+  }
+
+  .ubicacionImagen {
+    grid-area: ubicacionImagen;
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+
+  .maps {
+    margin-top: 3%;
+  }
+  .mapa {
+    grid-area: mapa;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+  }
+}

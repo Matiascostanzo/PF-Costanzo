@@ -1,0 +1,23 @@
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  .containerContacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  .containerContacto {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .containerContacto {
+    width: 100%;
+
+    .parrafoContacto {
+      font-family: "Merriweather", serif;
+    }
+  }
+}

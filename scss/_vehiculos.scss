@@ -1,0 +1,881 @@
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    .tarjetas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      line-height: 1.6;
+      font-family: sans-serif;
+
+      .card1 {
+        background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card2 {
+        background-image: url("../img/Mini\ Cross.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card3 {
+        background-image: url("../img/X8.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card4 {
+        background-image: url("../img/Grace.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card5 {
+        background-image: url("../img/Leo\ Sin\ fondo.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card6 {
+        background-image: url("../img/Hawk\ 1.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card7 {
+        background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card8 {
+        background-image: url("../img/Robot.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card9 {
+        background-image: url("../img/Shino.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card10 {
+        background-image: url("../img/Spy\ Racing.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card11 {
+        background-image: url("../img/Super\ Miku.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card12 {
+        background-image: url("../img/Vespa.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card-content {
+        padding: 1rem;
+        background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+        transform: translateY(65%);
+        transition: transform 500ms ease;
+
+        .card-content__title {
+          font-size: medium;
+          color: white;
+          text-decoration: none;
+          margin-bottom: 23%;
+        }
+        .card-content__body {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: small;
+        }
+      }
+    }
+
+    .card1:hover .card-content,
+    .card2:hover .card-content,
+    .card3:hover .card-content,
+    .card4:hover .card-content,
+    .card5:hover .card-content,
+    .card6:hover .card-content,
+    .card7:hover .card-content,
+    .card8:hover .card-content,
+    .card9:hover .card-content,
+    .card10:hover .card-content,
+    .card11:hover .card-content,
+    .card12:hover .card-content {
+      transform: translateY(0);
+      transition-delay: 500ms;
+    }
+  }
+}
+
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    .tarjetas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      line-height: 1.6;
+      font-family: sans-serif;
+
+      .card1 {
+        background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card2 {
+        background-image: url("../img/Mini\ Cross.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card3 {
+        background-image: url("../img/X8.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card4 {
+        background-image: url("../img/Grace.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card5 {
+        background-image: url("../img/Leo\ Sin\ fondo.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card6 {
+        background-image: url("../img/Hawk\ 1.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card7 {
+        background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card8 {
+        background-image: url("../img/Robot.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+      .card9 {
+        background-image: url("../img/Shino.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+      .card10 {
+        background-image: url("../img/Spy\ Racing.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card11 {
+        background-image: url("../img/Super\ Miku.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+      .card12 {
+        background-image: url("../img/Vespa.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card-content {
+        padding: 1rem;
+        background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+        transform: translateY(65%);
+        transition: transform 500ms ease;
+
+        .card-content__title {
+          font-size: medium;
+          color: white;
+          text-decoration: none;
+          margin-bottom: 23%;
+        }
+        .card-content__body {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: small;
+        }
+      }
+    }
+
+    .card1:hover .card-content,
+    .card2:hover .card-content,
+    .card3:hover .card-content,
+    .card4:hover .card-content,
+    .card5:hover .card-content,
+    .card6:hover .card-content,
+    .card7:hover .card-content,
+    .card8:hover .card-content,
+    .card9:hover .card-content,
+    .card10:hover .card-content,
+    .card11:hover .card-content,
+    .card12:hover .card-content {
+      transform: translateY(0);
+      transition-delay: 500ms;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    .parrafoVehiculos {
+      display: flex;
+      text-align: center;
+
+      width: 100%;
+    }
+
+    .tarjetas {
+      margin-top: 10%;
+      display: grid;
+      grid-gap: 10%;
+
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-template-areas:
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8"
+        "card9 card10 card11 card12"
+        "footer footer footer footer";
+
+      align-items: center;
+      min-height: 150vh;
+      line-height: 1.6;
+      font-family: sans-serif;
+
+      .card1 {
+        background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+        margin-left: 4%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card2 {
+        background-image: url("../img/Mini\ Cross.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card3 {
+        background-image: url("../img/X8.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card4 {
+        background-image: url("../img/Grace.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card5 {
+        background-image: url("../img/Leo\ Sin\ fondo.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+        margin-left: 4%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card6 {
+        background-image: url("../img/Hawk\ 1.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+      .card7 {
+        background-image: url("../img/Miku\ Sin\ Fondo.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card8 {
+        background-image: url("../img/Robot.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card9 {
+        background-image: url("../img/Shino.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+        margin-left: 4%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card10 {
+        background-image: url("../img/Spy\ Racing.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+      .card11 {
+        background-image: url("../img/Super\ Miku.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+      .card12 {
+        background-image: url("../img/Vespa.png");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 0 0;
+        max-width: 280px;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        margin-right: 5%;
+
+        &hover {
+          transform: scale(1.05);
+        }
+        &focus-within {
+          transform: scale(1.05);
+        }
+      }
+
+      .card-content {
+        padding: 1rem;
+        background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+        transform: translateY(65%);
+        transition: transform 500ms ease;
+
+        .card-content__title {
+          font-size: medium;
+          color: white;
+          text-decoration: none;
+          margin-bottom: 23%;
+        }
+        .card-content__body {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: small;
+        }
+      }
+    }
+    .card1:hover .card-content,
+    .card2:hover .card-content,
+    .card3:hover .card-content,
+    .card4:hover .card-content,
+    .card5:hover .card-content,
+    .card6:hover .card-content,
+    .card7:hover .card-content,
+    .card8:hover .card-content,
+    .card9:hover .card-content,
+    .card10:hover .card-content,
+    .card11:hover .card-content,
+    .card12:hover .card-content {
+      transform: translateY(0);
+      transition-delay: 500ms;
+    }
+  }
+}

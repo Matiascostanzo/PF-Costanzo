@@ -1,20 +1,118 @@
-@charset "UTF-8";
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  .containerContacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  .containerContacto {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containerContacto {
+    width: 100%;
+  }
+  .containerContacto .parrafoContacto {
+    font-family: "Merriweather", serif;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqContainer .faqRow {
+    display: flex;
+  }
+  .faqContainer .faqRow .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+  .faqContainer .faqRow .faqCol .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+  .faqContainer .faqPreguntas {
+    padding-top: 4%;
+  }
+  .faqContainer .faqPreguntas hr {
+    border-color: grey;
+  }
+}
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqContainer .faqRow {
+    display: flex;
+  }
+  .faqContainer .faqRow .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+  .faqContainer .faqRow .faqCol .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+  .faqContainer .faqPreguntas {
+    padding-top: 4%;
+  }
+  .faqContainer .faqPreguntas hr {
+    border-color: grey;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+  }
+  .faqContainer .faqRow {
+    display: flex;
+  }
+  .faqContainer .faqRow .faqCol {
+    display: flex;
+    flex-direction: column;
+  }
+  .faqContainer .faqRow .faqCol .faqTexto {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: "Rubik", sans-serif;
+  }
+  .faqContainer .faqPreguntas {
+    padding-top: 4%;
+  }
+  .faqContainer .faqPreguntas hr {
+    border-color: white;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* PÁGINA DE INICIO */
+/* NAV BAR */
 @media screen and (min-width: 350px) and (max-width: 858px) {
-  body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../img/Fondo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
-  /* NAV BAR */
-  .checkbtn {
+  .header .checkbtn {
     display: block;
     float: right;
     color: white;
@@ -23,7 +121,10 @@
     margin-right: 40px;
     cursor: pointer;
   }
-  ul {
+  .header nav {
+    background-color: black;
+  }
+  .header nav ul {
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -34,27 +135,24 @@
     text-align: center;
     transition: all 0.5s;
   }
-  nav {
-    background-color: black;
-  }
-  nav ul li {
+  .header nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
-  nav ul li a {
+  .header nav ul li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
   }
-  #check {
+  .header #check {
     display: none;
   }
-  .link:hover {
+  .header .link:hover {
     background: none;
     color: grey;
   }
-  #check:checked ~ ul {
+  .header #check:checked ~ ul {
     left: 0;
   }
   /* Footer */
@@ -75,428 +173,56 @@
     flex-wrap: wrap;
     align-content: center;
   }
-  .redesSociales__linkInstagram {
-    color: white;
-    padding-top: 0.3%;
-    padding-right: 0.5%;
-  }
-  .fa-instagram {
+  .footer .fa-instagram {
     font-size: x-large;
     margin-right: 0.3%;
     margin-top: 0.5%;
   }
-  .fa-facebook {
+  .footer .fa-facebook {
     font-size: x-large;
     margin-top: -10%;
     padding-left: 25%;
     margin-right: 50px;
   }
-  .redesSociales__imagenFacebook {
-    color: white;
-    padding-top: 7px;
-  }
-  .redesSociales__Contacto {
-    color: white;
-    margin-top: 12px;
-    margin-left: 18px;
-  }
-  /* Cuerpo de página de inicio */
-  .inicioContainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .inicioTexto {
-    padding-left: 3%;
-    margin-top: 10%;
-    font-size: large;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    order: 3;
-    color: white;
-  }
-  .hawk {
-    display: flex;
-    flex-direction: column;
-    order: 1;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .leo {
-    display: flex;
-    flex-direction: column;
-    order: 4;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .titulo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    order: 0;
-  }
-  .subtitulo {
-    order: 2;
-    color: white;
-  }
-  h1 {
-    color: #343a40;
-    font-size: 50px;
-    margin-top: 2%;
-    font-family: "Roboto", sans-serif;
-  }
-  h2 {
-    margin-left: 3%;
-    margin-top: 10%;
-    font-family: "Arimo", sans-serif;
-  }
-  h3 {
-    margin-top: 7%;
-    margin-left: 1%;
-    color: white;
-    font-size: medium;
-    margin: 10px;
-  }
-  /* Vehiculos */
-  .bodyVehiculos {
-    background-image: none;
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-  }
-  .tarjetas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    line-height: 1.6;
-    font-family: sans-serif;
-  }
-  .card1 {
-    background-image: url("../img/Cuatri 1500 - 1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card2 {
-    background-image: url("../img/Mini Cross.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card3 {
-    background-image: url("../img/X8.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card4 {
-    background-image: url("../img/Grace.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card5 {
-    background-image: url("../img/Leo Sin fondo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card6 {
-    background-image: url("../img/Hawk 1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card7 {
-    background-image: url("../img/Miku Sin Fondo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card8 {
-    background-image: url("../img/Robot.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card9 {
-    background-image: url("../img/Shino.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card10 {
-    background-image: url("../img/Spy Racing.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card11 {
-    background-image: url("../img/Super Miku.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card12 {
-    background-image: url("../img/Vespa.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card1:hover,
-  .card1:focus-within {
-    transform: scale(1.05);
-  }
-  .card2:hover,
-  .card2:focus-within {
-    transform: scale(1.05);
-  }
-  .card3:hover,
-  .card3:focus-within {
-    transform: scale(1.05);
-  }
-  .card4:hover:hover,
-  .card4:focus-within {
-    transform: scale(1.05);
-  }
-  .card5:hover:hover,
-  .card5:focus-within {
-    transform: scale(1.05);
-  }
-  .card6:hover:hover,
-  .card6:focus-within {
-    transform: scale(1.05);
-  }
-  .card7:hover,
-  .card7:focus-within {
-    transform: scale(1.05);
-  }
-  .card8:hover,
-  .card8:focus-within {
-    transform: scale(1.05);
-  }
-  .card9:hover,
-  .card9:focus-within {
-    transform: scale(1.05);
-  }
-  .card10:hover,
-  .card10:focus-within {
-    transform: scale(1.05);
-  }
-  .card11:hover,
-  .card11:focus-within {
-    transform: scale(1.05);
-  }
-  .card12:hover,
-  .card12:focus-within {
-    transform: scale(1.05);
-  }
-  .card-content {
-    padding: 1rem;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
-    transform: translateY(65%);
-    transition: transform 500ms ease;
-  }
-  .card1:hover .card-content,
-  .card2:hover .card-content,
-  .card3:hover .card-content,
-  .card4:hover .card-content,
-  .card5:hover .card-content,
-  .card6:hover .card-content,
-  .card7:hover .card-content,
-  .card8:hover .card-content,
-  .card9:hover .card-content,
-  .card10:hover .card-content,
-  .card11:hover .card-content,
-  .card12:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  .card-content__title {
-    font-size: medium;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 23%;
-  }
-  .card-content__body {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: small;
-  }
-  .tituloVehiculos h1 {
-    display: flex;
-    text-align: end;
-  }
-  /* Contacto */
-  .containerContacto {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  /* FAQ */
-  .faqContainer {
-    width: 90%;
-    max-width: 1320px;
-    margin: 0 auto;
-    color: white;
-  }
-  .faqRow {
-    display: flex;
-  }
-  .faqCol {
-    display: flex;
-    flex-direction: column;
-  }
-  .faqTexto {
-    font-size: 20px;
-    padding-top: 2%;
-    padding-left: 3%;
-    font-family: "Rubik", sans-serif;
-  }
-  .faqPreguntas {
-    padding-top: 4%;
-  }
-  hr {
-    border-color: grey;
-  }
-  /* Ubicacion */
-  .ubicacionContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-  }
-  .ubicacionRow {
-    display: flex;
-  }
-  .ubicacionCol {
-    display: flex;
-    flex-direction: column;
-  }
-  .ubicacionTexto {
-    margin-top: 10%;
-    font-size: 30px;
-  }
-  .ubicacionImagen {
-    padding-left: 3%;
-    padding-top: 3%;
-  }
-  .maps {
-    margin-top: 3%;
-  }
-  .mapa {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 10%;
-  }
 }
 @media screen and (min-width: 859px) and (max-width: 1199px) {
-  /* Nav Bar */
   .header {
     position: sticky;
     top: 0;
     z-index: 2;
   }
-  body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../img/Fondo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-  }
-  .enlace {
+  .header .enlace {
     position: absolute;
     padding: 20px 50px;
   }
-  nav ul li a {
+  .header .enlace .indice__logo {
+    height: 40px;
+  }
+  .header nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+  }
+  .header nav ul {
+    float: right;
+    color: white;
+    background: black;
+    margin-right: 20px;
+  }
+  .header nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+    color: white;
+  }
+  .header nav ul li a {
     color: white;
     font-size: 16px;
     text-decoration: none;
     padding: 7px 13px;
     text-transform: uppercase;
   }
-  nav {
-    background: black;
-    height: 80px;
-    width: 100%;
-  }
-  .indice__logo {
-    height: 40px;
-  }
-  nav ul {
-    float: right;
-    color: white;
-    background: black;
-    margin-right: 20px;
-  }
-  nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-    line-height: 80px;
-    color: white;
-  }
-  .checkbtn {
+  .header nav .checkbtn {
     color: white;
     font-size: 30px;
     float: right;
@@ -505,20 +231,107 @@
     cursor: pointer;
     display: none;
   }
-  #check {
+  .header nav #check {
     display: none;
   }
-  .link:hover {
+  .header nav .link:hover {
     background: grey;
     width: 20px;
   }
-  /* Index */
+  /* Footer */
+  .footer {
+    font-size: 60%;
+    background: black;
+    height: 10%;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+    /*  poner footer abajo */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .footer .fa-instagram {
+    font-size: x-large;
+    margin-right: 0.3%;
+    margin-top: 0.5%;
+  }
+  .footer .fa-facebook {
+    font-size: x-large;
+    margin-top: -10%;
+    padding-left: 25%;
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .header nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+  }
+  .header nav .enlace {
+    position: absolute;
+    padding: 20px 50px;
+  }
+  .header nav .enlace .indice__logo {
+    height: 40px;
+  }
+  .header nav ul {
+    float: right;
+    color: white;
+    background: black;
+    margin-right: 20px;
+  }
+  .header nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+  }
+  .header nav ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 7px 13px;
+    text-transform: uppercase;
+  }
+  .header nav .checkbtn {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  .header nav #check {
+    display: none;
+  }
+  .header nav .link:hover {
+    background: grey;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
   .inicioContainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
-  .inicioTexto {
+  .inicioContainer .inicioTexto {
     padding-left: 3%;
     margin-top: 10%;
     font-size: large;
@@ -527,311 +340,186 @@
     order: 3;
     color: white;
   }
-  .hawk {
+  .inicioContainer .titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 0;
+  }
+  .inicioContainer .titulo h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+  .inicioContainer .subtitulo {
+    order: 2;
+    color: white;
+  }
+  .inicioContainer .subtitulo h2 {
+    margin-left: 3%;
+    margin-top: 10%;
+    font-family: "Arimo", sans-serif;
+  }
+  .inicioContainer .hawk {
     display: flex;
     flex-direction: column;
     order: 1;
     justify-content: center;
     margin: 0 auto;
   }
-  .leo {
+  .inicioContainer .leo {
     display: flex;
     flex-direction: column;
     order: 4;
     justify-content: center;
     margin: 0 auto;
   }
-  .titulo {
+}
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  body .inicioContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  body .inicioContainer .inicioTexto {
+    padding-left: 3%;
+    margin-top: 10%;
+    font-size: large;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    order: 3;
+    color: white;
+  }
+  body .inicioContainer .hawk {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  body .inicioContainer .leo {
+    display: flex;
+    flex-direction: column;
+    order: 4;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  body .inicioContainer .titulo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     order: 0;
   }
-  .subtitulo {
-    order: 2;
-    color: white;
-  }
-  h1 {
+  body .inicioContainer .titulo h1 {
     color: #343a40;
     font-size: 50px;
     margin-top: 2%;
     font-family: "Roboto", sans-serif;
   }
-  h2 {
+  body .inicioContainer .subtitulo {
+    order: 2;
+    color: white;
+  }
+  body .inicioContainer .subtitulo h2 {
     margin-left: 3%;
     margin-top: 10%;
     font-family: "Arimo", sans-serif;
   }
-  h3 {
-    margin-top: 7%;
-    margin-left: 1%;
-    color: white;
-    font-size: medium;
-    margin: 10px;
-  }
-  /* Vehiculos */
-  .bodyVehiculos {
-    background-image: none;
-    background-color: white;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../img/Fondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
   }
-  .tarjetas {
+  body .inicioContainer {
+    padding: 10% 10%;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 5% 25% 30% 10%;
+    grid-template-areas: " titulo  hawk " "subtitulo  subtitulo " " inicioTexto  leo   " "inicioTexto none" "footer footer";
+  }
+  body .inicioContainer .titulo {
+    grid-area: titulo;
+    margin-left: 3%;
+    color: white;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+  body .inicioContainer .titulo h1 {
+    color: #343a40;
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+  }
+  body .inicioContainer .subtitulo {
+    grid-area: subtitulo;
+    margin-left: 1%;
+    color: white;
+  }
+  body .inicioContainer .subtitulo h2 {
+    margin-left: 3%;
+    margin-top: 10%;
+    font-family: "Arimo", sans-serif;
+  }
+  body .inicioContainer .hawk {
+    grid-area: hawk;
+    padding-left: 150%;
+  }
+  body .inicioContainer .leo {
+    grid-area: leo;
+    padding-left: 150%;
+  }
+  body .inicioContainer .inicioTexto {
+    color: white;
+    grid-area: inicioTexto;
+    margin-left: 1%;
+    margin-bottom: 230px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  .ubicacionContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    line-height: 1.6;
-    font-family: sans-serif;
-  }
-  .card1 {
-    background-image: url("../img/Cuatri 1500 - 1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card2 {
-    background-image: url("../img/Mini Cross.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card3 {
-    background-image: url("../img/X8.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card4 {
-    background-image: url("../img/Grace.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card5 {
-    background-image: url("../img/Leo Sin fondo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card6 {
-    background-image: url("../img/Hawk 1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card7 {
-    background-image: url("../img/Miku Sin Fondo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card8 {
-    background-image: url("../img/Robot.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card9 {
-    background-image: url("../img/Shino.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card10 {
-    background-image: url("../img/Spy Racing.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card11 {
-    background-image: url("../img/Super Miku.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card12 {
-    background-image: url("../img/Vespa.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem 0 0;
-    max-width: 280px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin-right: 5%;
-  }
-  .card1:hover,
-  .card1:focus-within {
-    transform: scale(1.05);
-  }
-  .card2:hover,
-  .card2:focus-within {
-    transform: scale(1.05);
-  }
-  .card3:hover,
-  .card3:focus-within {
-    transform: scale(1.05);
-  }
-  .card4:hover:hover,
-  .card4:focus-within {
-    transform: scale(1.05);
-  }
-  .card5:hover:hover,
-  .card5:focus-within {
-    transform: scale(1.05);
-  }
-  .card6:hover:hover,
-  .card6:focus-within {
-    transform: scale(1.05);
-  }
-  .card7:hover,
-  .card7:focus-within {
-    transform: scale(1.05);
-  }
-  .card8:hover,
-  .card8:focus-within {
-    transform: scale(1.05);
-  }
-  .card9:hover,
-  .card9:focus-within {
-    transform: scale(1.05);
-  }
-  .card10:hover,
-  .card10:focus-within {
-    transform: scale(1.05);
-  }
-  .card11:hover,
-  .card11:focus-within {
-    transform: scale(1.05);
-  }
-  .card12:hover,
-  .card12:focus-within {
-    transform: scale(1.05);
-  }
-  .card-content {
-    padding: 1rem;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
-    transform: translateY(65%);
-    transition: transform 500ms ease;
-  }
-  .card1:hover .card-content,
-  .card2:hover .card-content,
-  .card3:hover .card-content,
-  .card4:hover .card-content,
-  .card5:hover .card-content,
-  .card6:hover .card-content,
-  .card7:hover .card-content,
-  .card8:hover .card-content,
-  .card9:hover .card-content,
-  .card10:hover .card-content,
-  .card11:hover .card-content,
-  .card12:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  .card-content__title {
-    font-size: medium;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 23%;
-  }
-  .card-content__body {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: small;
-  }
-  .tituloVehiculos h1 {
-    display: flex;
-    text-align: end;
-  }
-  /* Contacto */
-  .containerContacto {
     width: 100%;
-  }
-  /* FAQ */
-  .faqContainer {
-    width: 90%;
     max-width: 1320px;
     margin: 0 auto;
-    color: white;
   }
-  .faqRow {
+  .ubicacionContainer .ubicacionRow {
     display: flex;
   }
-  .faqCol {
+  .ubicacionContainer .ubicacionRow .ubicacionCol {
     display: flex;
     flex-direction: column;
   }
-  .faqTexto {
-    font-size: 20px;
-    padding-top: 2%;
+  .ubicacionContainer .ubicacionRow .ubicacionCol .ubicacionTexto {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+  .ubicacionContainer .ubicacionRow .ubicacionCol .ubicacionImagen {
     padding-left: 3%;
-    font-family: "Rubik", sans-serif;
+    padding-top: 3%;
   }
-  .faqPreguntas {
-    padding-top: 4%;
+  .ubicacionContainer .maps {
+    margin-top: 3%;
   }
-  hr {
-    border-color: grey;
+  .ubicacionContainer .maps .mapa {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
   }
-  /* Ubicacion */
+}
+@media screen and (min-width: 859px) and (max-width: 1199px) {
   .ubicacionContainer {
     display: grid;
     width: 100%;
@@ -841,138 +529,61 @@
     grid-template-rows: 33% 33% 34%;
     grid-template-areas: " ubicacionTexto  ubicacionImagen " "mapa  mapa " "footer footer";
   }
-  .ubicacionRow {
+  .ubicacionContainer .ubicacionRow {
     display: flex;
   }
-  .ubicacionCol {
+  .ubicacionContainer .ubicacionRow .ubicacionCol {
     display: flex;
     flex-direction: column;
   }
-  .ubicacionTexto {
+  .ubicacionContainer .ubicacionRow .ubicacionCol .ubicacionTexto {
     margin-top: 10%;
     font-size: 30px;
   }
-  .ubicacionImagen {
+  .ubicacionContainer .ubicacionRow .ubicacionCol .ubicacionImagen {
     padding-left: 3%;
     padding-top: 3%;
   }
-  .maps {
+  .ubicacionContainer .maps {
     margin-top: 3%;
   }
-  .mapa {
+  .ubicacionContainer .maps .mapa {
     width: 100%;
     height: 100%;
     padding-bottom: 10%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* Index */
-  body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../img/Fondo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-  }
-  /* Nav Bar */
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-  }
-  nav {
-    background: black;
-    height: 80px;
-    width: 100%;
-  }
-  .indice__logo {
-    height: 40px;
-  }
-  .enlace {
-    position: absolute;
-    padding: 20px 50px;
-  }
-  nav ul {
-    float: right;
-    color: white;
-    background: black;
-    margin-right: 20px;
-  }
-  nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-    line-height: 80px;
-  }
-  nav ul li a {
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 7px 13px;
-    text-transform: uppercase;
-  }
-  .checkbtn {
-    color: white;
-    font-size: 30px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  #check {
-    display: none;
-  }
-  .link:hover {
-    background: grey;
-  }
-  h1 {
-    color: #343a40;
-    font-size: 50px;
-    margin-top: 2%;
-    font-family: "Roboto", sans-serif;
-  }
-  h3 {
-    margin-top: 7%;
-    margin-left: 1%;
-    color: white;
-    font-size: medium;
-    margin: 10px;
-  }
-  .inicioContainer {
-    padding: 10% 10%;
+  .ubicacionContainer {
     display: grid;
-    grid-gap: 10%;
+    width: 100%;
+    max-width: 100vh;
+    margin: auto;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30% 5% 25% 30% 10%;
-    grid-template-areas: " titulo  hawk " "subtitulo  subtitulo " " inicioTexto  leo   " "inicioTexto none" "footer footer";
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas: " ubicacionTexto  ubicacionImagen " "mapa    mapa " "footer   footer";
   }
-  .titulo {
-    grid-area: titulo;
-    margin-left: 3%;
-    color: white;
+  .ubicacionContainer .ubicacionTexto {
+    grid-area: ubicacionTexto;
+    margin-top: 10%;
     font-size: 30px;
-    margin-top: 2%;
-    font-family: "Roboto", sans-serif;
   }
-  .hawk {
-    grid-area: hawk;
-    padding-left: 150%;
+  .ubicacionContainer .ubicacionImagen {
+    grid-area: ubicacionImagen;
+    padding-left: 3%;
+    padding-top: 3%;
   }
-  .subtitulo {
-    grid-area: subtitulo;
-    margin-left: 1%;
-    color: white;
+  .ubicacionContainer .maps {
+    margin-top: 3%;
   }
-  .leo {
-    grid-area: leo;
-    padding-left: 150%;
+  .ubicacionContainer .maps .mapa {
+    grid-area: mapa;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
   }
-  .inicioTexto {
-    color: white;
-    grid-area: inicioTexto;
-    margin-left: 1%;
-    margin-bottom: 230px;
-  }
-  /* Vehiculos */
+}
+@media screen and (min-width: 350px) and (max-width: 858px) {
   .bodyVehiculos {
     background-image: none;
     background-color: white;
@@ -980,7 +591,518 @@
     background-repeat: no-repeat;
     height: 100%;
   }
-  .tarjetas {
+  .bodyVehiculos .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+  .bodyVehiculos .tarjetas .card1 {
+    background-image: url("../img/Cuatri 1500 - 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card1hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card1focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card2 {
+    background-image: url("../img/Mini Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card2hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card2focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card3hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card3focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card4hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card4focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card5 {
+    background-image: url("../img/Leo Sin fondo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card5hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card5focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card6 {
+    background-image: url("../img/Hawk 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card6hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card6focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card7 {
+    background-image: url("../img/Miku Sin Fondo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card7hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card7focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card8 {
+    background-image: url("../img/Robot.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card8hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card8focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card9 {
+    background-image: url("../img/Shino.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card9hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card9focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card10 {
+    background-image: url("../img/Spy Racing.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card10hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card10focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card11 {
+    background-image: url("../img/Super Miku.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card11hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card11focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card12 {
+    background-image: url("../img/Vespa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card12hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card12focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .bodyVehiculos .tarjetas .card-content .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+  .bodyVehiculos .tarjetas .card-content .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+  .bodyVehiculos .card1:hover .card-content,
+  .bodyVehiculos .card2:hover .card-content,
+  .bodyVehiculos .card3:hover .card-content,
+  .bodyVehiculos .card4:hover .card-content,
+  .bodyVehiculos .card5:hover .card-content,
+  .bodyVehiculos .card6:hover .card-content,
+  .bodyVehiculos .card7:hover .card-content,
+  .bodyVehiculos .card8:hover .card-content,
+  .bodyVehiculos .card9:hover .card-content,
+  .bodyVehiculos .card10:hover .card-content,
+  .bodyVehiculos .card11:hover .card-content,
+  .bodyVehiculos .card12:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+}
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .bodyVehiculos .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+  .bodyVehiculos .tarjetas .card1 {
+    background-image: url("../img/Cuatri 1500 - 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card1hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card1focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card2 {
+    background-image: url("../img/Mini Cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card2hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card2focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card3 {
+    background-image: url("../img/X8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card3hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card3focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card4 {
+    background-image: url("../img/Grace.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card4hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card4focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card5 {
+    background-image: url("../img/Leo Sin fondo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card5hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card5focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card6 {
+    background-image: url("../img/Hawk 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card6hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card6focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card7 {
+    background-image: url("../img/Miku Sin Fondo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card7hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card7focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card8 {
+    background-image: url("../img/Robot.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card8hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card8focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card9 {
+    background-image: url("../img/Shino.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card9hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card9focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card10 {
+    background-image: url("../img/Spy Racing.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card10hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card10focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card11 {
+    background-image: url("../img/Super Miku.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card11hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card11focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card12 {
+    background-image: url("../img/Vespa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem 0 0;
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin-right: 5%;
+  }
+  .bodyVehiculos .tarjetas .card12hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card12focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card-content {
+    padding: 1rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .bodyVehiculos .tarjetas .card-content .card-content__title {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 23%;
+  }
+  .bodyVehiculos .tarjetas .card-content .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+  }
+  .bodyVehiculos .card1:hover .card-content,
+  .bodyVehiculos .card2:hover .card-content,
+  .bodyVehiculos .card3:hover .card-content,
+  .bodyVehiculos .card4:hover .card-content,
+  .bodyVehiculos .card5:hover .card-content,
+  .bodyVehiculos .card6:hover .card-content,
+  .bodyVehiculos .card7:hover .card-content,
+  .bodyVehiculos .card8:hover .card-content,
+  .bodyVehiculos .card9:hover .card-content,
+  .bodyVehiculos .card10:hover .card-content,
+  .bodyVehiculos .card11:hover .card-content,
+  .bodyVehiculos .card12:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bodyVehiculos {
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .bodyVehiculos .parrafoVehiculos {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyVehiculos .tarjetas {
     margin-top: 10%;
     display: grid;
     grid-gap: 10%;
@@ -992,7 +1114,7 @@
     line-height: 1.6;
     font-family: sans-serif;
   }
-  .card1 {
+  .bodyVehiculos .tarjetas .card1 {
     background-image: url("../img/Cuatri 1500 - 1.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1004,7 +1126,13 @@
     margin-right: 5%;
     margin-left: 4%;
   }
-  .card2 {
+  .bodyVehiculos .tarjetas .card1hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card1focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card2 {
     background-image: url("../img/Mini Cross.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1015,7 +1143,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card3 {
+  .bodyVehiculos .tarjetas .card2hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card2focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card3 {
     background-image: url("../img/X8.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1026,7 +1160,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card4 {
+  .bodyVehiculos .tarjetas .card3hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card3focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card4 {
     background-image: url("../img/Grace.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1037,7 +1177,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card5 {
+  .bodyVehiculos .tarjetas .card4hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card4focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card5 {
     background-image: url("../img/Leo Sin fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1049,7 +1195,13 @@
     margin-right: 5%;
     margin-left: 4%;
   }
-  .card6 {
+  .bodyVehiculos .tarjetas .card5hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card5focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card6 {
     background-image: url("../img/Hawk 1.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1060,7 +1212,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card7 {
+  .bodyVehiculos .tarjetas .card6hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card6focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card7 {
     background-image: url("../img/Miku Sin Fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1071,7 +1229,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card8 {
+  .bodyVehiculos .tarjetas .card7hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card7focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card8 {
     background-image: url("../img/Robot.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1082,7 +1246,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card9 {
+  .bodyVehiculos .tarjetas .card8hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card8focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card9 {
     background-image: url("../img/Shino.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1094,7 +1264,13 @@
     margin-right: 5%;
     margin-left: 4%;
   }
-  .card10 {
+  .bodyVehiculos .tarjetas .card9hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card9focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card10 {
     background-image: url("../img/Spy Racing.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1105,7 +1281,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card11 {
+  .bodyVehiculos .tarjetas .card10hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card10focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card11 {
     background-image: url("../img/Super Miku.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1116,7 +1298,13 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card12 {
+  .bodyVehiculos .tarjetas .card11hover {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card11focus-within {
+    transform: scale(1.05);
+  }
+  .bodyVehiculos .tarjetas .card12 {
     background-image: url("../img/Vespa.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1127,151 +1315,42 @@
     transition: transform 500ms ease;
     margin-right: 5%;
   }
-  .card1:hover,
-  .card1:focus-within {
+  .bodyVehiculos .tarjetas .card12hover {
     transform: scale(1.05);
   }
-  .card2:hover,
-  .card2:focus-within {
+  .bodyVehiculos .tarjetas .card12focus-within {
     transform: scale(1.05);
   }
-  .card3:hover,
-  .card3:focus-within {
-    transform: scale(1.05);
-  }
-  .card4:hover:hover,
-  .card4:focus-within {
-    transform: scale(1.05);
-  }
-  .card5:hover:hover,
-  .card5:focus-within {
-    transform: scale(1.05);
-  }
-  .card6:hover:hover,
-  .card6:focus-within {
-    transform: scale(1.05);
-  }
-  .card7:hover,
-  .card7:focus-within {
-    transform: scale(1.05);
-  }
-  .card8:hover,
-  .card8:focus-within {
-    transform: scale(1.05);
-  }
-  .card9:hover,
-  .card9:focus-within {
-    transform: scale(1.05);
-  }
-  .card10:hover,
-  .card10:focus-within {
-    transform: scale(1.05);
-  }
-  .card11:hover,
-  .card11:focus-within {
-    transform: scale(1.05);
-  }
-  .card12:hover,
-  .card12:focus-within {
-    transform: scale(1.05);
-  }
-  .card-content {
+  .bodyVehiculos .tarjetas .card-content {
     padding: 1rem;
     background: linear-gradient(black, rgba(0, 0, 0, 0.5));
     transform: translateY(65%);
     transition: transform 500ms ease;
   }
-  .card1:hover .card-content,
-  .card2:hover .card-content,
-  .card3:hover .card-content,
-  .card4:hover .card-content,
-  .card5:hover .card-content,
-  .card6:hover .card-content,
-  .card7:hover .card-content,
-  .card8:hover .card-content,
-  .card9:hover .card-content,
-  .card10:hover .card-content,
-  .card11:hover .card-content,
-  .card12:hover .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  .card-content__title {
+  .bodyVehiculos .tarjetas .card-content .card-content__title {
     font-size: medium;
     color: white;
     text-decoration: none;
     margin-bottom: 23%;
   }
-  .card-content__body {
+  .bodyVehiculos .tarjetas .card-content .card-content__body {
     color: rgba(255, 255, 255, 0.8);
     font-size: small;
   }
-  .parrafoVehiculos {
-    display: flex;
-    text-align: center;
-    width: 100%;
-  }
-  /* Contacto */
-  .containerContacto {
-    width: 100%;
-  }
-  .parrafoContacto {
-    font-family: "Merriweather", serif;
-  }
-  /* FAQ */
-  .faqContainer {
-    width: 90%;
-    max-width: 1320px;
-    margin: 0 auto;
-    color: white;
-  }
-  .faqRow {
-    display: flex;
-  }
-  .faqCol {
-    display: flex;
-    flex-direction: column;
-  }
-  .faqTexto {
-    font-size: 20px;
-    padding-top: 2%;
-    padding-left: 3%;
-    font-family: "Rubik", sans-serif;
-  }
-  .faqPreguntas {
-    padding-top: 4%;
-  }
-  hr {
-    border-color: grey;
-  }
-  /* Ubicacion */
-  .ubicacionContainer {
-    display: grid;
-    width: 100%;
-    max-width: 100vh;
-    margin: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 33% 33% 34%;
-    grid-template-areas: " ubicacionTexto  ubicacionImagen " "mapa    mapa " "footer   footer";
-  }
-  .ubicacionTexto {
-    grid-area: ubicacionTexto;
-    margin-top: 10%;
-    font-size: 30px;
-  }
-  .ubicacionImagen {
-    grid-area: ubicacionImagen;
-    padding-left: 3%;
-    padding-top: 3%;
-  }
-  .maps {
-    margin-top: 3%;
-  }
-  .mapa {
-    grid-area: mapa;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 10%;
+  .bodyVehiculos .card1:hover .card-content,
+  .bodyVehiculos .card2:hover .card-content,
+  .bodyVehiculos .card3:hover .card-content,
+  .bodyVehiculos .card4:hover .card-content,
+  .bodyVehiculos .card5:hover .card-content,
+  .bodyVehiculos .card6:hover .card-content,
+  .bodyVehiculos .card7:hover .card-content,
+  .bodyVehiculos .card8:hover .card-content,
+  .bodyVehiculos .card9:hover .card-content,
+  .bodyVehiculos .card10:hover .card-content,
+  .bodyVehiculos .card11:hover .card-content,
+  .bodyVehiculos .card12:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
   }
 }
 

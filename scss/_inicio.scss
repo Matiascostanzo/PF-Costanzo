@@ -1,0 +1,201 @@
+@media screen and (min-width: 350px) and (max-width: 858px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
+      url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .inicioContainer {
+    display: flex;
+    flex-direction: column;
+
+    .inicioTexto {
+      padding-left: 3%;
+      margin-top: 10%;
+      font-size: large;
+      margin-top: 3%;
+      margin-bottom: 2%;
+      order: 3;
+      color: white;
+    }
+
+    .titulo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      order: 0;
+
+      h1 {
+        color: white;
+        font-size: 50px;
+        margin-top: 2%;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+
+    .subtitulo {
+      order: 2;
+      color: white;
+
+      h2 {
+        margin-left: 3%;
+        margin-top: 10%;
+        font-family: "Arimo", sans-serif;
+      }
+    }
+
+    .hawk {
+      display: flex;
+      flex-direction: column;
+      order: 1;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    .leo {
+      display: flex;
+      flex-direction: column;
+      order: 4;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 859px) and (max-width: 1199px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
+      url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    .inicioContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .inicioTexto {
+        padding-left: 3%;
+        margin-top: 10%;
+        font-size: large;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        order: 3;
+        color: white;
+      }
+
+      .hawk {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .leo {
+        display: flex;
+        flex-direction: column;
+        order: 4;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .titulo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        order: 0;
+
+        h1 {
+          color: #343a40;
+          font-size: 50px;
+          margin-top: 2%;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+
+      .subtitulo {
+        order: 2;
+        color: white;
+
+        h2 {
+          margin-left: 3%;
+          margin-top: 10%;
+          font-family: "Arimo", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0)),
+      url(../img/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    .inicioContainer {
+      padding: 10% 10%;
+      display: grid;
+      grid-gap: 10%;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 30% 5% 25% 30% 10%;
+      grid-template-areas:
+        " titulo  hawk "
+        "subtitulo  subtitulo "
+        " inicioTexto  leo   "
+        "inicioTexto none"
+        "footer footer";
+
+      .titulo {
+        grid-area: titulo;
+
+        margin-left: 3%;
+        color: white;
+        font-size: 30px;
+        margin-top: 2%;
+        font-family: "Roboto", sans-serif;
+
+        h1 {
+          color: #343a40;
+          font-size: 50px;
+          margin-top: 2%;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+      .subtitulo {
+        grid-area: subtitulo;
+        margin-left: 1%;
+        color: white;
+
+        h2 {
+          margin-left: 3%;
+          margin-top: 10%;
+          font-family: "Arimo", sans-serif;
+        }
+      }
+
+      .hawk {
+        grid-area: hawk;
+        padding-left: 150%;
+      }
+
+      .leo {
+        grid-area: leo;
+        padding-left: 150%;
+      }
+
+      .inicioTexto {
+        color: white;
+        grid-area: inicioTexto;
+        margin-left: 1%;
+        margin-bottom: 230px;
+      }
+    }
+  }
+}
