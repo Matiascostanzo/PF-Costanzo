@@ -475,6 +475,7 @@
   body .inicioContainer .hawk {
     grid-area: hawk;
     padding-left: 150%;
+    height: 300px;
   }
   body .inicioContainer .leo {
     grid-area: leo;
@@ -635,7 +636,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card3 {
-    background-image: url("../img/X8.png");
+    background-image: url("../img/X7.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -686,7 +687,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card6 {
-    background-image: url("../img/Hawk 1.png");
+    background-image: url("../img/Hawk.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -703,7 +704,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card7 {
-    background-image: url("../img/Miku Sin Fondo.png");
+    background-image: url("../img/Miku.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -888,7 +889,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card3 {
-    background-image: url("../img/X8.png");
+    background-image: url("../img/X7.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -939,7 +940,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card6 {
-    background-image: url("../img/Hawk 1.png");
+    background-image: url("../img/Hawk.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -956,7 +957,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card7 {
-    background-image: url("../img/Miku Sin Fondo.png");
+    background-image: url("../img/Miku.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -1150,7 +1151,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card3 {
-    background-image: url("../img/X8.png");
+    background-image: url("../img/X7.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -1202,7 +1203,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card6 {
-    background-image: url("../img/Hawk 1.png");
+    background-image: url("../img/Hawk.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -1219,7 +1220,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card7 {
-    background-image: url("../img/Miku Sin Fondo.png");
+    background-image: url("../img/Miku.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;

@@ -1,7 +1,7 @@
 {
-  "name": "pre-entrega2-costanzo",
+  "name": "pre-entrega3-costanzo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Página Web del concesionario oficial de la marca Sunra ubicado en Ingeniero Maschwitz, partido de Escobar ",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
