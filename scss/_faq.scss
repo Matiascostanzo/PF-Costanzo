@@ -3,95 +3,35 @@
     width: 90%;
     max-width: 1320px;
     margin: 0 auto;
-    color: white;
+    color: $color-white;
 
     .faqRow {
       display: flex;
+      width: 100%;
 
       .faqCol {
         display: flex;
         flex-direction: column;
+        align-items: center;
 
         .faqTexto {
           font-size: 20px;
           padding-top: 2%;
           padding-left: 3%;
           font-family: "Rubik", sans-serif;
-        }
-      }
-    }
-
-    .faqPreguntas {
-      padding-top: 4%;
-
-      hr {
-        border-color: grey;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 859px) and (max-width: 1199px) {
-  .faqContainer {
-    width: 90%;
-    max-width: 1320px;
-    margin: 0 auto;
-    color: white;
-
-    .faqRow {
-      display: flex;
-
-      .faqCol {
-        display: flex;
-        flex-direction: column;
-
-        .faqTexto {
-          font-size: 20px;
-          padding-top: 2%;
-          padding-left: 3%;
-          font-family: "Rubik", sans-serif;
-        }
-      }
-    }
-    .faqPreguntas {
-      padding-top: 4%;
-
-      hr {
-        border-color: grey;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .faqContainer {
-    width: 90%;
-    max-width: 1320px;
-    margin: 0 auto;
-    color: white;
-
-    .faqRow {
-      display: flex;
-
-      .faqCol {
-        display: flex;
-        flex-direction: column;
-
-        .faqTexto {
-          font-size: 20px;
-          padding-top: 2%;
-          padding-left: 3%;
-          font-family: "Rubik", sans-serif;
+          justify-content: center;
         }
       }
     }
   }
+
   .faqPreguntas {
     padding-top: 4%;
-    color: white;
+    color: $color-white;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5);
 
     hr {
-      border-color: white;
+      border-color: $color-white;
     }
     .preguntaSimbolo1,
     .preguntaSimbolo2,
@@ -100,12 +40,113 @@
     .preguntaSimbolo5,
     .preguntaSimbolo6 {
       display: flex;
-      justify-content: space-arround;
+      justify-content: start;
       width: 100%;
+      padding: 10px;
+
+      i {
+        margin-left: 500px;
+      }
     }
     a {
       text-decoration: none;
-      color: white;
+      color: $color-white;
+      display: block;
+    }
+    section {
+      width: 100%;
+      margin: 0 auto;
+      padding: 30px;
+
+      p {
+        width: 100%;
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+    section:target p {
+      max-height: 400px;
+      padding: 10px;
+      max-width: 400px;
+    }
+    .pregunta1 {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 859px) {
+  .faqContainer {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: $color-white;
+
+    .faqRow {
+      display: flex;
+      width: 100%;
+
+      .faqCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .faqTexto {
+          font-size: 20px;
+          padding-top: 2%;
+          padding-left: 3%;
+          font-family: "Rubik", sans-serif;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .faqPreguntas {
+    padding-top: 4%;
+    color: $color-white;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5);
+
+    hr {
+      border-color: $color-white;
+    }
+    .preguntaSimbolo1,
+    .preguntaSimbolo2,
+    .preguntaSimbolo3,
+    .preguntaSimbolo4,
+    .preguntaSimbolo5,
+    .preguntaSimbolo6 {
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      padding: 10px;
+
+      i {
+        margin-left: 500px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $color-white;
+      display: block;
+    }
+    section {
+      width: 100%;
+      margin: 0 auto;
+      padding: 100px;
+
+      p {
+        width: 50%;
+        overflow: hidden;
+        max-height: 0;
+        text-align: justify;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+    section:target p {
+      max-height: 200px;
+      padding: 10px;
     }
   }
 }

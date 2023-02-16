@@ -12,7 +12,7 @@
 @media screen and (min-width: 350px) and (max-width: 858px) {
   .bodyVehiculos {
     background-image: none;
-    background-color: white;
+    background-color: $color-white;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -176,7 +176,7 @@
 
         .card-content__title {
           font-size: medium;
-          color: white;
+          color: $color-white;
           text-decoration: none;
           margin-bottom: 23%;
         }
@@ -208,7 +208,7 @@
 @media screen and (min-width: 859px) and (max-width: 1199px) {
   .bodyVehiculos {
     background-image: none;
-    background-color: white;
+    background-color: $color-white;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -367,7 +367,7 @@
 
         .card-content__title {
           font-size: medium;
-          color: white;
+          color: $color-white;
           text-decoration: none;
           margin-bottom: 23%;
         }
@@ -399,7 +399,7 @@
 @media screen and (min-width: 1200px) {
   .bodyVehiculos {
     background-image: none;
-    background-color: white;
+    background-color: $color-white;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -580,7 +580,7 @@
 
         .card-content__title {
           font-size: medium;
-          color: white;
+          color: $color-white;
           text-decoration: none;
           margin-bottom: 23%;
         }
