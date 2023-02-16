@@ -84,15 +84,14 @@
   .ubicacionContainer {
     display: grid;
     width: 100%;
-    max-width: 100vh;
+    max-width: 100%;
     margin: auto;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 33% 33% 34%;
+    grid-template-rows: 50% 50%;
     grid-template-areas:
       " ubicacionTexto  ubicacionImagen "
-      "mapa    mapa "
-      "footer   footer";
+      "maps    maps ";
 
     .ubicacionTexto {
       grid-area: ubicacionTexto;
@@ -108,12 +107,13 @@
 
     .maps {
       margin-top: 3%;
-
+      grid-area: maps;
       .mapa {
         grid-area: mapa;
         width: 100%;
         height: 100%;
         padding-bottom: 10%;
+        margin-top: 10%;
       }
     }
   }

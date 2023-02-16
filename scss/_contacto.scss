@@ -4,6 +4,9 @@
     flex-direction: column;
     width: 100%;
   }
+  iframe {
+    width: 100vh;
+  }
 }
 
 @media screen and (min-width: 859px) and (max-width: 1199px) {

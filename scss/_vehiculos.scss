@@ -1,3 +1,14 @@
+@mixin cards {
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10rem 0 0;
+  max-width: 280px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  margin-right: 5%;
+}
+
 @media screen and (min-width: 350px) and (max-width: 858px) {
   .bodyVehiculos {
     background-image: none;
@@ -17,14 +28,7 @@
 
       .card1 {
         background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
+        @include cards;
 
         &hover {
           transform: scale(1.05);
@@ -36,14 +40,7 @@
 
       .card2 {
         background-image: url("../img/Mini\ Cross.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
+        @include cards;
 
         &hover {
           transform: scale(1.05);
@@ -55,15 +52,7 @@
 
       .card3 {
         background-image: url("../img/X7.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -74,15 +63,7 @@
 
       .card4 {
         background-image: url("../img/Grace.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -94,15 +75,7 @@
       .card5 {
         background-image: url("../img/Leo\ Sin\ fondo.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -114,15 +87,7 @@
       .card6 {
         background-image: url("../img/Hawk.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -134,15 +99,7 @@
       .card7 {
         background-image: url("../img/Miku.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -154,15 +111,7 @@
       .card8 {
         background-image: url("../img/Robot.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -174,15 +123,7 @@
       .card9 {
         background-image: url("../img/Shino.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -194,15 +135,7 @@
       .card10 {
         background-image: url("../img/Spy\ Racing.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -214,15 +147,7 @@
       .card11 {
         background-image: url("../img/Super\ Miku.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -234,15 +159,7 @@
       .card12 {
         background-image: url("../img/Vespa.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -307,15 +224,7 @@
 
       .card1 {
         background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -326,15 +235,7 @@
 
       .card2 {
         background-image: url("../img/Mini\ Cross.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -345,15 +246,7 @@
 
       .card3 {
         background-image: url("../img/X7.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -364,15 +257,7 @@
 
       .card4 {
         background-image: url("../img/Grace.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -384,15 +269,7 @@
       .card5 {
         background-image: url("../img/Leo\ Sin\ fondo.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -404,15 +281,7 @@
       .card6 {
         background-image: url("../img/Hawk.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -424,15 +293,7 @@
       .card7 {
         background-image: url("../img/Miku.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -444,15 +305,7 @@
       .card8 {
         background-image: url("../img/Robot.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -463,15 +316,7 @@
       .card9 {
         background-image: url("../img/Shino.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -482,15 +327,7 @@
       .card10 {
         background-image: url("../img/Spy\ Racing.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -502,15 +339,7 @@
       .card11 {
         background-image: url("../img/Super\ Miku.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -521,15 +350,7 @@
       .card12 {
         background-image: url("../img/Vespa.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -610,14 +431,7 @@
 
       .card1 {
         background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
+        @include cards;
         margin-left: 4%;
 
         &hover {
@@ -630,15 +444,7 @@
 
       .card2 {
         background-image: url("../img/Mini\ Cross.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -649,15 +455,7 @@
 
       .card3 {
         background-image: url("../img/X7.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -668,15 +466,7 @@
 
       .card4 {
         background-image: url("../img/Grace.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -688,14 +478,7 @@
       .card5 {
         background-image: url("../img/Leo\ Sin\ fondo.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
+        @include cards;
         margin-left: 4%;
 
         &hover {
@@ -709,15 +492,7 @@
       .card6 {
         background-image: url("../img/Hawk.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -728,15 +503,7 @@
       .card7 {
         background-image: url("../img/Miku.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -748,15 +515,7 @@
       .card8 {
         background-image: url("../img/Robot.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -768,14 +527,7 @@
       .card9 {
         background-image: url("../img/Shino.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
+        @include cards;
         margin-left: 4%;
 
         &hover {
@@ -789,15 +541,7 @@
       .card10 {
         background-image: url("../img/Spy\ Racing.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -808,15 +552,7 @@
       .card11 {
         background-image: url("../img/Super\ Miku.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
@@ -827,15 +563,7 @@
       .card12 {
         background-image: url("../img/Vespa.png");
 
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 10rem 0 0;
-        max-width: 280px;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: transform 500ms ease;
-        margin-right: 5%;
-
+        @include cards;
         &hover {
           transform: scale(1.05);
         }
