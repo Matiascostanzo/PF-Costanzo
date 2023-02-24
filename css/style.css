@@ -175,6 +175,10 @@
   box-sizing: border-box;
 }
 
+#active1 {
+  color: brown;
+}
+
 /* NAV BAR */
 @media screen and (min-width: 350px) and (max-width: 858px) {
   .header {
@@ -433,20 +437,17 @@
     margin-top: 10%;
     font-family: "Arimo", sans-serif;
   }
-  .inicioContainer .hawk {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
+  .inicioContainer .carrusel1 {
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 40%;
     order: 1;
-    justify-content: center;
-    margin: 0 auto;
   }
-  .inicioContainer .leo {
-    display: flex;
-    flex-direction: column;
+  .inicioContainer .carrusel2 {
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 40%;
     order: 4;
-    justify-content: center;
-    margin: 0 auto;
   }
 }
 @media screen and (min-width: 859px) and (max-width: 1199px) {
@@ -470,20 +471,17 @@
     order: 3;
     color: white;
   }
-  body .inicioContainer .hawk {
-    display: flex;
-    flex-direction: column;
+  body .inicioContainer .carrusel1 {
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 40%;
     order: 1;
-    justify-content: center;
-    margin: 0 auto;
-    width: 200px;
   }
-  body .inicioContainer .leo {
-    display: flex;
-    flex-direction: column;
+  body .inicioContainer .carrusel2 {
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 40%;
     order: 4;
-    justify-content: center;
-    margin: 0 auto;
   }
   body .inicioContainer .titulo {
     display: flex;
@@ -520,7 +518,7 @@
     grid-gap: 10%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30% 5% 25% 30% 10%;
-    grid-template-areas: " titulo  hawk " "subtitulo  subtitulo " " inicioTexto  leo   " "inicioTexto none" "footer footer";
+    grid-template-areas: " titulo  carrusel1 " "subtitulo  subtitulo " " inicioTexto  carrusel2   " "inicioTexto none" "footer footer";
   }
   body .inicioContainer .titulo {
     grid-area: titulo;
@@ -542,23 +540,24 @@
     color: white;
   }
   body .inicioContainer .subtitulo h2 {
-    margin-left: 3%;
+    margin-left: 1.5%;
     margin-top: 10%;
     font-family: "Arimo", sans-serif;
   }
-  body .inicioContainer .hawk {
-    grid-area: hawk;
-    padding-left: 150%;
-    height: 300px;
+  body .inicioContainer .carrusel1 {
+    margin-top: 20%;
+    margin-left: 140%;
+    width: 100%;
   }
-  body .inicioContainer .leo {
-    grid-area: leo;
-    padding-left: 150%;
+  body .inicioContainer .carrusel2 {
+    margin-top: 20%;
+    margin-left: 140%;
+    width: 100%;
   }
   body .inicioContainer .inicioTexto {
     color: white;
     grid-area: inicioTexto;
-    margin-left: 1%;
+    margin-left: 1.5%;
     margin-bottom: 230px;
   }
 }

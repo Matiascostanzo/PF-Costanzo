@@ -47,22 +47,18 @@
         font-family: "Arimo", sans-serif;
       }
     }
-
-    .hawk {
-      height: 250px;
-      display: flex;
-      flex-direction: column;
+    .carrusel1 {
+      margin-top: 20%;
+      margin-left: 30%;
+      width: 40%;
       order: 1;
-      justify-content: center;
-      margin: 0 auto;
     }
 
-    .leo {
-      display: flex;
-      flex-direction: column;
+    .carrusel2 {
+      margin-top: 20%;
+      margin-left: 30%;
+      width: 40%;
       order: 4;
-      justify-content: center;
-      margin: 0 auto;
     }
   }
 }
@@ -90,21 +86,18 @@
         color: $color-white;
       }
 
-      .hawk {
-        display: flex;
-        flex-direction: column;
+      .carrusel1 {
+        margin-top: 20%;
+        margin-left: 30%;
+        width: 40%;
         order: 1;
-        justify-content: center;
-        margin: 0 auto;
-        width: 200px;
       }
 
-      .leo {
-        display: flex;
-        flex-direction: column;
+      .carrusel2 {
+        margin-top: 20%;
+        margin-left: 30%;
+        width: 40%;
         order: 4;
-        justify-content: center;
-        margin: 0 auto;
       }
 
       .titulo {
@@ -150,9 +143,9 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 30% 5% 25% 30% 10%;
       grid-template-areas:
-        " titulo  hawk "
+        " titulo  carrusel1 "
         "subtitulo  subtitulo "
-        " inicioTexto  leo   "
+        " inicioTexto  carrusel2   "
         "inicioTexto none"
         "footer footer";
 
@@ -178,27 +171,27 @@
         color: $color-white;
 
         h2 {
-          margin-left: 3%;
+          margin-left: 1.5%;
           margin-top: 10%;
           font-family: "Arimo", sans-serif;
         }
       }
-
-      .hawk {
-        grid-area: hawk;
-        padding-left: 150%;
-        height: 300px;
+      .carrusel1 {
+        margin-top: 20%;
+        margin-left: 140%;
+        width: 100%;
       }
 
-      .leo {
-        grid-area: leo;
-        padding-left: 150%;
+      .carrusel2 {
+        margin-top: 20%;
+        margin-left: 140%;
+        width: 100%;
       }
 
       .inicioTexto {
         color: $color-white;
         grid-area: inicioTexto;
-        margin-left: 1%;
+        margin-left: 1.5%;
         margin-bottom: 230px;
       }
     }
