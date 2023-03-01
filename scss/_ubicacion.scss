@@ -6,22 +6,19 @@
     max-width: 1320px;
     margin: 0 auto;
 
-    .ubicacionRow {
+    .ubicacionCol {
       display: flex;
+      flex-direction: column;
 
-      .ubicacionCol {
-        display: flex;
-        flex-direction: column;
+      .ubicacionTexto {
+        margin-top: 10%;
+        font-size: 30px;
+      }
 
-        .ubicacionTexto {
-          margin-top: 10%;
-          font-size: 30px;
-        }
-
-        .ubicacionImagen {
-          padding-left: 3%;
-          padding-top: 3%;
-        }
+      .ubicacionImagen {
+        width: 100%;
+        padding-left: 3%;
+        padding-top: 3%;
       }
     }
 

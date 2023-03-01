@@ -575,18 +575,16 @@
     max-width: 1320px;
     margin: 0 auto;
   }
-  .ubicacionContainer .ubicacionRow {
-    display: flex;
-  }
-  .ubicacionContainer .ubicacionRow .ubicacionCol {
+  .ubicacionContainer .ubicacionCol {
     display: flex;
     flex-direction: column;
   }
-  .ubicacionContainer .ubicacionRow .ubicacionCol .ubicacionTexto {
+  .ubicacionContainer .ubicacionCol .ubicacionTexto {
     margin-top: 10%;
     font-size: 30px;
   }
-  .ubicacionContainer .ubicacionRow .ubicacionCol .ubicacionImagen {
+  .ubicacionContainer .ubicacionCol .ubicacionImagen {
+    width: 100%;
     padding-left: 3%;
     padding-top: 3%;
   }
