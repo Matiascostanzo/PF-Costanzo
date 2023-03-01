@@ -2,7 +2,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   padding: 10rem 0 0;
-  max-width: 280px;
+  max-width: 200px;
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 500ms ease;
@@ -27,7 +27,7 @@
       font-family: sans-serif;
 
       .card1 {
-        background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+        background-image: url("../img/Cuatri-1500-1.webp");
         @include cards;
 
         &hover {
@@ -39,7 +39,7 @@
       }
 
       .card2 {
-        background-image: url("../img/Mini\ Cross.png");
+        background-image: url("../img/Mini-Cross.webp");
         @include cards;
 
         &hover {
@@ -51,7 +51,7 @@
       }
 
       .card3 {
-        background-image: url("../img/X7.png");
+        background-image: url("../img/X7.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -62,7 +62,7 @@
       }
 
       .card4 {
-        background-image: url("../img/Grace.png");
+        background-image: url("../img/Grace.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -73,7 +73,7 @@
       }
 
       .card5 {
-        background-image: url("../img/Leo\ Sin\ fondo.png");
+        background-image: url("../img/Leo-Sin-fondo.webp");
 
         @include cards;
         &hover {
@@ -85,7 +85,7 @@
       }
 
       .card6 {
-        background-image: url("../img/Hawk.png");
+        background-image: url("../img/Hawk.webp");
 
         @include cards;
         &hover {
@@ -97,7 +97,7 @@
       }
 
       .card7 {
-        background-image: url("../img/Miku.png");
+        background-image: url("../img/Miku.webp");
 
         @include cards;
         &hover {
@@ -109,7 +109,7 @@
       }
 
       .card8 {
-        background-image: url("../img/Robot.png");
+        background-image: url("../img/Robot.webp");
 
         @include cards;
         &hover {
@@ -145,7 +145,7 @@
       }
 
       .card11 {
-        background-image: url("../img/Super\ Miku.png");
+        background-image: url("../img/Miku.webp");
 
         @include cards;
         &hover {
@@ -223,7 +223,7 @@
       font-family: sans-serif;
 
       .card1 {
-        background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+        background-image: url("../img/Cuatri-1500-1.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -234,7 +234,7 @@
       }
 
       .card2 {
-        background-image: url("../img/Mini\ Cross.png");
+        background-image: url("../img/Mini-Cross.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -245,7 +245,7 @@
       }
 
       .card3 {
-        background-image: url("../img/X7.png");
+        background-image: url("../img/X7.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -256,7 +256,7 @@
       }
 
       .card4 {
-        background-image: url("../img/Grace.png");
+        background-image: url("../img/Grace.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -267,7 +267,7 @@
       }
 
       .card5 {
-        background-image: url("../img/Leo\ Sin\ fondo.png");
+        background-image: url("../img/Leo-Sin-fondo.webp");
 
         @include cards;
         &hover {
@@ -279,7 +279,7 @@
       }
 
       .card6 {
-        background-image: url("../img/Hawk.png");
+        background-image: url("../img/Hawk.webp");
 
         @include cards;
         &hover {
@@ -291,7 +291,7 @@
       }
 
       .card7 {
-        background-image: url("../img/Miku.png");
+        background-image: url("../img/Miku.webp");
 
         @include cards;
         &hover {
@@ -303,7 +303,7 @@
       }
 
       .card8 {
-        background-image: url("../img/Robot.png");
+        background-image: url("../img/Robot.webp");
 
         @include cards;
         &hover {
@@ -430,7 +430,7 @@
       font-family: sans-serif;
 
       .card1 {
-        background-image: url("../img/Cuatri\ 1500\ -\ 1.png");
+        background-image: url("../img/Cuatri-1500-1.webp");
         @include cards;
         margin-left: 4%;
 
@@ -443,7 +443,7 @@
       }
 
       .card2 {
-        background-image: url("../img/Mini\ Cross.png");
+        background-image: url("../img/Mini-Cross.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -454,7 +454,7 @@
       }
 
       .card3 {
-        background-image: url("../img/X7.png");
+        background-image: url("../img/X7.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -465,7 +465,7 @@
       }
 
       .card4 {
-        background-image: url("../img/Grace.png");
+        background-image: url("../img/Grace.webp");
         @include cards;
         &hover {
           transform: scale(1.05);
@@ -476,7 +476,7 @@
       }
 
       .card5 {
-        background-image: url("../img/Leo\ Sin\ fondo.png");
+        background-image: url("../img/Leo-Sin-fondo.webp");
 
         @include cards;
         margin-left: 4%;
@@ -490,7 +490,7 @@
       }
 
       .card6 {
-        background-image: url("../img/Hawk.png");
+        background-image: url("../img/Hawk.webp");
 
         @include cards;
         &hover {
@@ -501,9 +501,10 @@
         }
       }
       .card7 {
-        background-image: url("../img/Miku.png");
+        background-image: url("../img/Miku.webp");
 
         @include cards;
+
         &hover {
           transform: scale(1.05);
         }
@@ -513,7 +514,7 @@
       }
 
       .card8 {
-        background-image: url("../img/Robot.png");
+        background-image: url("../img/Robot.webp");
 
         @include cards;
         &hover {
