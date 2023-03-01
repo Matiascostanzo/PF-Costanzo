@@ -77,6 +77,8 @@
       width: 100%;
 
       .inicioTexto {
+        display: flex;
+        justify-content: center;
         padding-left: 3%;
         margin-top: 10%;
         font-size: large;
@@ -115,10 +117,14 @@
       }
 
       .subtitulo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         order: 2;
         color: $color-white;
 
         h2 {
+          justify-content: center;
           margin-left: 3%;
           margin-top: 10%;
           font-family: "Arimo", sans-serif;

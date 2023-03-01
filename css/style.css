@@ -463,6 +463,8 @@
     width: 100%;
   }
   body .inicioContainer .inicioTexto {
+    display: flex;
+    justify-content: center;
     padding-left: 3%;
     margin-top: 10%;
     font-size: large;
@@ -496,10 +498,14 @@
     font-family: "Roboto", sans-serif;
   }
   body .inicioContainer .subtitulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     order: 2;
     color: white;
   }
   body .inicioContainer .subtitulo h2 {
+    justify-content: center;
     margin-left: 3%;
     margin-top: 10%;
     font-family: "Arimo", sans-serif;
