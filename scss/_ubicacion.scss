@@ -40,41 +40,41 @@
   .ubicacionContainer {
     display: grid;
     width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: auto;
+
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 33% 33% 34%;
+    grid-template-rows: 50% 50%;
     grid-template-areas:
       " ubicacionTexto  ubicacionImagen "
-      "mapa  mapa "
-      "footer footer";
+      "maps    maps ";
 
-    .ubicacionRow {
-      display: flex;
-
-      .ubicacionCol {
-        display: flex;
-        flex-direction: column;
-
-        .ubicacionTexto {
-          color: $color-white;
-          margin-top: 10%;
-          font-size: 30px;
-        }
-
-        .ubicacionImagen {
-          padding-left: 3%;
-          padding-top: 3%;
-        }
-      }
+    .ubicacionTexto {
+      color: $color-white;
+      grid-area: ubicacionTexto;
+      margin-top: 10%;
+      font-size: 30px;
+      margin-left: 5%;
     }
+
+    .ubicacionImagen {
+      grid-area: ubicacionImagen;
+      padding-left: 3%;
+      padding-top: 3%;
+    }
+
     .maps {
       margin-top: 3%;
+      grid-area: maps;
+      margin-bottom: 2%;
 
       .mapa {
+        padding: 2%;
+        grid-area: mapa;
         width: 100%;
         height: 100%;
         padding-bottom: 10%;
+        margin-top: 10%;
       }
     }
   }
@@ -110,7 +110,9 @@
     .maps {
       margin-top: 3%;
       grid-area: maps;
+      margin-bottom: 2%;
       .mapa {
+        padding: 2%;
         grid-area: mapa;
         width: 100%;
         height: 100%;

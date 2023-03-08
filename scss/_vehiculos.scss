@@ -214,11 +214,23 @@
     height: 100%;
 
     .tarjetas {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      margin-top: 10%;
+      display: grid;
+      grid-gap: 10%;
+
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 14% 14% 14% 14% 14% 14% 16%;
+      grid-template-areas:
+        "card1 card2 "
+        "card3 card4"
+        "card5 card6"
+        "card7 card8"
+        "card9 card10"
+        "card11 card12"
+        "footer footer";
+
       align-items: center;
-      min-height: 100vh;
+      min-height: 100%;
       line-height: 1.6;
       font-family: sans-serif;
 
@@ -328,6 +340,7 @@
         background-image: url("../img/Spy\ Racing.png");
 
         @include cards;
+
         &hover {
           transform: scale(1.05);
         }
@@ -554,6 +567,7 @@
         background-image: url("../img/Super\ Miku.png");
 
         @include cards;
+
         &hover {
           transform: scale(1.05);
         }
