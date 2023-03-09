@@ -222,9 +222,15 @@
       margin-top: 10%;
       display: grid;
       grid-gap: 10%;
+<<<<<<< HEAD
       margin-left: 10%;
       grid-template-columns: 1fr 1fr;
 
+=======
+
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 14% 14% 14% 14% 14% 14% 16%;
+>>>>>>> 4306a421401d6f62066941f9d00bfd15f555f360
       grid-template-areas:
         "card1 card2 "
         "card3 card4"
@@ -235,7 +241,11 @@
         "footer footer";
 
       align-items: center;
+<<<<<<< HEAD
 
+=======
+      min-height: 100%;
+>>>>>>> 4306a421401d6f62066941f9d00bfd15f555f360
       line-height: 1.6;
       font-family: sans-serif;
 
