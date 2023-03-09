@@ -13,13 +13,14 @@
       .ubicacionTexto {
         color: $color-white;
         margin-top: 10%;
-        font-size: 30px;
+        font-size: 15px;
+        margin-left: 3%;
       }
 
       .ubicacionImagen {
-        width: 95%;
-        padding-left: 3%;
-        padding-top: 3%;
+        width: 80%;
+        margin-left: 7%;
+        border-radius: 8px;
       }
     }
 
@@ -40,7 +41,7 @@
   .ubicacionContainer {
     display: grid;
     width: 100%;
-    max-width: 100%;
+
     margin: auto;
 
     grid-template-columns: 1fr 1fr;
@@ -59,8 +60,8 @@
 
     .ubicacionImagen {
       grid-area: ubicacionImagen;
-      padding-left: 3%;
-      padding-top: 3%;
+
+      border-radius: 8px;
     }
 
     .maps {
@@ -103,8 +104,8 @@
 
     .ubicacionImagen {
       grid-area: ubicacionImagen;
-      padding-left: 3%;
-      padding-top: 3%;
+
+      border-radius: 20px;
     }
 
     .maps {

@@ -607,12 +607,13 @@
   .ubicacionContainer .ubicacionCol .ubicacionTexto {
     color: white;
     margin-top: 10%;
-    font-size: 30px;
+    font-size: 15px;
+    margin-left: 3%;
   }
   .ubicacionContainer .ubicacionCol .ubicacionImagen {
-    width: 95%;
-    padding-left: 3%;
-    padding-top: 3%;
+    width: 80%;
+    margin-left: 7%;
+    border-radius: 8px;
   }
   .ubicacionContainer .maps {
     margin-top: 3%;
@@ -628,7 +629,6 @@
   .ubicacionContainer {
     display: grid;
     width: 100%;
-    max-width: 100%;
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
@@ -643,8 +643,7 @@
   }
   .ubicacionContainer .ubicacionImagen {
     grid-area: ubicacionImagen;
-    padding-left: 3%;
-    padding-top: 3%;
+    border-radius: 8px;
   }
   .ubicacionContainer .maps {
     margin-top: 3%;
@@ -679,8 +678,7 @@
   }
   .ubicacionContainer .ubicacionImagen {
     grid-area: ubicacionImagen;
-    padding-left: 3%;
-    padding-top: 3%;
+    border-radius: 20px;
   }
   .ubicacionContainer .maps {
     margin-top: 3%;
@@ -703,6 +701,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+  }
+  .bodyVehiculos .parrafoVehiculos {
+    margin-left: 5%;
   }
   .bodyVehiculos .tarjetas {
     display: flex;
@@ -953,16 +954,20 @@
   .bodyVehiculos {
     background-image: none;
     background-color: white;
-    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
   }
+  .bodyVehiculos .parrafoVehiculos {
+    margin-left: 5%;
+  }
   .bodyVehiculos .tarjetas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 10%;
+    display: grid;
+    grid-gap: 10%;
+    margin-left: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "card1 card2 " "card3 card4" "card5 card6" "card7 card8" "card9 card10" "card11 card12" "footer footer";
     align-items: center;
-    min-height: 100vh;
     line-height: 1.6;
     font-family: sans-serif;
   }
@@ -1213,12 +1218,13 @@
   .bodyVehiculos .parrafoVehiculos {
     display: flex;
     text-align: center;
+    margin-left: 5%;
     width: 100%;
   }
   .bodyVehiculos .tarjetas {
     margin-top: 10%;
     display: grid;
-    grid-gap: 10%;
+    grid-gap: 9%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8" "card9 card10 card11 card12" "footer footer footer footer";

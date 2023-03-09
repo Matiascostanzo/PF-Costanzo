@@ -16,7 +16,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-
+    .parrafoVehiculos {
+      margin-left: 5%;
+    }
     .tarjetas {
       display: flex;
       flex-direction: column;
@@ -209,16 +211,31 @@
   .bodyVehiculos {
     background-image: none;
     background-color: $color-white;
-    background-size: cover;
+
     background-repeat: no-repeat;
     height: 100%;
 
+    .parrafoVehiculos {
+      margin-left: 5%;
+    }
     .tarjetas {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      margin-top: 10%;
+      display: grid;
+      grid-gap: 10%;
+      margin-left: 10%;
+      grid-template-columns: 1fr 1fr;
+
+      grid-template-areas:
+        "card1 card2 "
+        "card3 card4"
+        "card5 card6"
+        "card7 card8"
+        "card9 card10"
+        "card11 card12"
+        "footer footer";
+
       align-items: center;
-      min-height: 100vh;
+
       line-height: 1.6;
       font-family: sans-serif;
 
@@ -328,6 +345,7 @@
         background-image: url("../img/Spy\ Racing.png");
 
         @include cards;
+
         &hover {
           transform: scale(1.05);
         }
@@ -407,14 +425,14 @@
     .parrafoVehiculos {
       display: flex;
       text-align: center;
-
+      margin-left: 5%;
       width: 100%;
     }
 
     .tarjetas {
       margin-top: 10%;
       display: grid;
-      grid-gap: 10%;
+      grid-gap: 9%;
 
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 25% 25% 25% 25%;
@@ -554,6 +572,7 @@
         background-image: url("../img/Super\ Miku.png");
 
         @include cards;
+
         &hover {
           transform: scale(1.05);
         }
