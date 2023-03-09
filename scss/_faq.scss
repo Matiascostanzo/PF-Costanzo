@@ -15,7 +15,7 @@
         align-items: center;
 
         .faqTexto {
-          font-size: 20px;
+          font-size: 15px;
           padding-top: 2%;
           padding-left: 3%;
           font-family: "Rubik", sans-serif;
@@ -29,7 +29,7 @@
     padding-top: 4%;
     color: $color-white;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5);
-
+    width: 80%;
     hr {
       border-color: $color-white;
     }

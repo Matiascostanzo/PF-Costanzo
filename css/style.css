@@ -4,10 +4,14 @@
     flex-direction: column;
     width: 100%;
   }
-  iframe {
-    width: 100vh;
+  .containerContacto .form {
+    font-size: 16px;
   }
 }
+iframe {
+  width: 100vh;
+}
+
 @media screen and (min-width: 859px) and (max-width: 1199px) {
   .containerContacto {
     width: 100%;
@@ -38,7 +42,7 @@
     align-items: center;
   }
   .faqContainer .faqRow .faqCol .faqTexto {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 2%;
     padding-left: 3%;
     font-family: "Rubik", sans-serif;
@@ -48,6 +52,7 @@
     padding-top: 4%;
     color: white;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5);
+    width: 80%;
   }
   .faqPreguntas hr {
     border-color: white;
@@ -902,7 +907,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card12 {
-    background-image: url("../img/Vespa.png");
+    background-image: url("../img/Vespa.webp");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -964,18 +969,10 @@
     margin-top: 10%;
     display: grid;
     grid-gap: 10%;
-<<<<<<< HEAD
     margin-left: 10%;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "card1 card2 " "card3 card4" "card5 card6" "card7 card8" "card9 card10" "card11 card12" "footer footer";
     align-items: center;
-=======
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 14% 14% 14% 14% 14% 14% 16%;
-    grid-template-areas: "card1 card2 " "card3 card4" "card5 card6" "card7 card8" "card9 card10" "card11 card12" "footer footer";
-    align-items: center;
-    min-height: 100%;
->>>>>>> 4306a421401d6f62066941f9d00bfd15f555f360
     line-height: 1.6;
     font-family: sans-serif;
   }
@@ -1167,7 +1164,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card12 {
-    background-image: url("../img/Vespa.png");
+    background-image: url("../img/Vespa.webp");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
@@ -1432,7 +1429,7 @@
     transform: scale(1.05);
   }
   .bodyVehiculos .tarjetas .card12 {
-    background-image: url("../img/Vespa.png");
+    background-image: url("../img/Vespa.webp");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 10rem 0 0;
